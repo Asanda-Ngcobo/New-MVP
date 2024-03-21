@@ -635,7 +635,7 @@
             <div class="getout11">&times;</div>
         
             <p class="question11">Simplify the following polynomial: <br>
-            <b class="interger">0</b><b class="interger1">0</b><b class="interger2">0</b><b class="interger3">0</b><b class="interger4">0</b> <b class="interger5">0</b></p>
+            <b class="interger">0</b><b class="interger1">0</b><b class="interger2">0</b><b class="interger3">0</b><b class="interger4">0</b><b class="interger5">0</b></p>
                 
             <input type="" class="input17" placeholder="Enter your answer here">
            
@@ -3013,6 +3013,8 @@ const generatedData = function(){
 let answer17 = '';
 let exponent1 = '';
 let exponent2 = '';
+let cubicRoot = 0;
+let lastV = 0;
     const test2 = document.querySelector('.test2');
 test2.addEventListener('click', ()=>{
     question11.classList.remove('notshown');
@@ -3025,7 +3027,7 @@ exponent1 = interger2 + interger4;
 console.log(`Exponent1 is equal to ${exponent1}`);
 exponent2 = interger1 + interger3;
 console.log(`Exponent2 is equal to ${exponent2}`);
-let cubicRoot = `${interger}x^3`;
+cubicRoot = `${interger}x^3`;
 if(interger === 0){
   cubicRoot = '';
 }
