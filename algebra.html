@@ -3015,6 +3015,8 @@ let exponent1 = '';
 let exponent2 = '';
 let cubicRoot = 0;
 let lastV = 0;
+let squareRoot = 0;
+let oneRoot = 0;
     const test2 = document.querySelector('.test2');
 test2.addEventListener('click', ()=>{
     question11.classList.remove('notshown');
@@ -3032,7 +3034,7 @@ if(interger === 0){
   cubicRoot = '';
 }
 console.log(cubicRoot);
-let squareRoot = `${exponent2}x^2`;
+squareRoot = `${exponent2}x^2`;
 if(exponent2 > 0){
   squareRoot = `+${exponent2}x^2`;
 }
@@ -3040,7 +3042,7 @@ if(exponent2 === 0){
   oneRoot = '';
 }
 console.log(squareRoot);
-let oneRoot = `${exponent1}x`;
+oneRoot = `${exponent1}x`;
 if(exponent1 > 0){
   oneRoot = `+${exponent1}x`;
 }
@@ -3049,7 +3051,7 @@ if(exponent1 === 0){
 }
 console.log(oneRoot);
 //For the Answer
-let lastV = interger5;
+lastV = interger5;
 if(interger5 > 0){
   lastV = `+${interger5}`;
 }
