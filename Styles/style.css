@@ -514,36 +514,21 @@ footer ul li a:hover {
   .header__title {
     margin-top: 1%;
   }
- 
-  
-   .start__now  {
-    
-    position: fixed;
-    margin-top: 77vh;
-    
-    padding: 10px;
-    background-color: brown;
-    width: 80%;
-    border-radius: 15px;
-    margin-left: 10%;
-    
-    text-align: center;
-    z-index: 2;
-  }
 
- 
   
   .material-icons.outlined  {
     display: flex;
     color: rgba(0, 0, 0, 0.54);
    
     font-size: 12px;
+    background: transparent;
   }
 
   .subject {
     display: flex;
     justify-content: space-between;
     font-size: 12px;
+    background: transparent;
   }
   
   .nav__links{
@@ -574,7 +559,7 @@ footer ul li a:hover {
    .remove{
     display: block;
     color: black;
-    background-color: white;
+    background-color: whitesmoke;
     margin-left: 119%;
     font-size: 30px;
     position: absolute;
@@ -700,6 +685,10 @@ footer ul li a:hover {
     
   }
 
+
+  .underline{
+    background: transparent;
+  }
   .image img{
     border-radius: 55%;
   }
@@ -718,16 +707,19 @@ footer ul li a:hover {
     width: 90%;
     border: 1px solid rgba(0, 0, 0, 0.3);
     margin: 10%;
+   
     
     
   }
   
   .numbers .data {
     width: 100%;
+    background: transparent;
   }
   
   .numbers .data .materials-icons{
     justify-self: center;
+    
   }
 
 
@@ -1021,7 +1013,7 @@ button{
    .remove{
     display: block;
     color: black;
-    background-color: white;
+    background-color: whitesmoke;
     margin-left: 119%;
     font-size: 35px;
     position: absolute;
