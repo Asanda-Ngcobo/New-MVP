@@ -54,6 +54,16 @@ for(let i = 0; i <pages.length; i++){
   
 }
 
+// const message = document.createElement('div'); //create a div elemetnt
+// message.classList.add('announcement-message');
+
+// message.innerHTML = `<p>Please note, this is still in beta, therefore if you find any errors, do let us know.
+// </p>`;
+
+// const header = document.querySelector('.header');
+
+// //insert at the top
+// header.prepend(message);
 
 // if(navigator.geolocation){
 //   navigator.geolocation.getCurrentPosition(
@@ -71,3 +81,77 @@ for(let i = 0; i <pages.length; i++){
 //     }
 //   );
 // }
+
+const section1 = document.querySelector(".section1");
+const section2 = document.querySelector(".section2");
+const section3 = document.querySelector(".section3");
+const section4 = document.querySelector(".section4");
+const section5 = document.querySelector(".section5");
+const section6 = document.querySelector(".section6");
+const section7 = document.querySelector(".section7");
+const section8 = document.querySelector(".section8");
+const section9 = document.querySelector(".section9");
+const section10 = document.querySelector(".section10");
+const section11 = document.querySelector(".section11");
+
+let lessons = [
+  section1,
+  section2,
+  section3,
+  section4,
+  section5,
+  section6,
+  section7,
+  section8,
+  section9,
+  section10,
+  section11,
+];
+
+//Section Click functionality
+const section = document.querySelectorAll("#section");
+const expandMore = document.querySelectorAll(".material-icons.expand_more");
+
+for (let i = 0; i < section.length; i++) {
+  section[i].addEventListener("click", () => {
+    lessons[i].classList.remove("hide");
+    
+
+    section[i].style.height = "0vh";
+    for (let i = 0; i < expandMore.length; i++) {
+      expandMore[i].classList.add("hide");
+    }
+  });
+}
+
+const leave1 = document.querySelector(".leave1");
+const leave2 = document.querySelector(".leave2");
+const leave3 = document.querySelector(".leave3");
+// const leave4 = document.querySelector(".leave4");
+// const leave5 = document.querySelector(".leave5");
+// const leave6 = document.querySelector(".leave6");
+// const leave7 = document.querySelector(".leave7");
+// const leave8 = document.querySelector(".leave8");
+// const leave9 = document.querySelector(".leave9");
+// const leave10 = document.querySelector(".leave10");
+// const leave11 = document.querySelector(".leave11");
+
+let theEscapes = [
+  leave1,
+  leave2,
+  leave3,
+ 
+
+];
+
+//The Escape button functionality
+
+for (let i = 0; i < theEscapes.length; i++) {
+  theEscapes[i].addEventListener("click", () => {
+    lessons[i].classList.add("hide");
+    section[i].style.height = "10vh";
+    for (let i = 0; i < expandMore.length; i++) {
+      expandMore[i].classList.remove("hide");
+    }
+  });
+}
