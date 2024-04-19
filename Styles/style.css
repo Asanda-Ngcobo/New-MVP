@@ -16,12 +16,7 @@ body{
   width: 100%;
   background: whitesmoke;
 }
-.goodluck-message {
-  background-color: black;
-  color: white;
-  width: 100%;
-  top: 0;
-}
+
 nav {
   width: 100%;
   position: fixed;
@@ -253,10 +248,69 @@ header {
 }
 
 #section_2 {
-  margin-left: 5%;
-  width: 90%;
+  
+width: 100%;
+ background: rgb(202, 167, 167);
+  height: 70vh;
+}
 
-  height: 60vh;
+
+#section {
+  border-top: 0.001rem solid rgba(91, 88, 88, 0.283);
+  height: 10vh;
+  max-height: auto;
+  width: 60%;
+  margin-left: 20%;
+  cursor: pointer;
+  background: transparent;
+ 
+}
+
+#section_2 h2{
+  text-align: center;
+  margin-bottom: 10%;
+  background: transparent;
+}
+#section:last-child {
+  border-bottom: 0.001rem solid rgba(91, 88, 88, 0.283);
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+}
+
+.description h4{
+  background: transparent;
+}
+.expand_more{
+  background: transparent;
+}
+.container {
+  position: relative;
+
+  width: 60%;
+  margin-left: 20%;
+  height: auto;
+  top: 0%;
+  background: transparent;
+ 
+}
+.vid_discription {
+  margin: 15px 0px 15px 0px;
+  font-size: 14px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.escape {
+  margin-left: 97%;
+  padding: 10px;
+  font-size: 20px;
+
+  font-weight: bolder;
+  background: none;
+  cursor: pointer;
 }
 .section__3{
   width: 100%;
@@ -313,50 +367,7 @@ h2{
   font-size: 20px;
 }
 
-.content1 h2{
-  margin: 10%;
- 
-  
-}
 
-.content1 h2 {
-  padding: 30px;
-}
-.content1 h2 span {
-  color: brown;
-}
-.content1 {
-  width: 100%;
-  display: flex;
-  gap: 10%;
-  height: auto;
-  margin-bottom: 5%;
-  border-top: 1px solid rgba(51, 49, 49, 0.3);
-}
-
-.content1 ul li {
-  padding: 30px;
-}
-
-.content1 button {
-  padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  bottom: 0;
-  position: relative;
-}
-
-.learn_more {
-  background: brown;
-  color: whitesmoke;
-  width: 30%;
-}
-.aboutintro {
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 2%;
-  margin-right: 7%;
-}
 
 .aboutintro h3 {
   font-size: 40px;
@@ -366,6 +377,11 @@ h2{
 
 .aboutintro .goal {
   width: 30%;
+}
+
+
+.hide {
+  display: none;
 }
 .cookie-container {
   position: fixed;
@@ -418,7 +434,7 @@ footer {
   color: white;
   width: 100%;
   gap: 10%;
-  margin-top: 10%;
+ 
 }
 
 footer ul {
@@ -499,6 +515,12 @@ footer ul li a:hover {
  
   .science{
     display: block;
+
+  }
+
+  .science a{
+    font-size: 12px;
+    background: white;
   }
   .overlay {
     position: absolute;
@@ -723,14 +745,6 @@ footer ul li a:hover {
   }
 
 
-#section_2 {
-  margin-left: 5%;
-  width: 90%;
-
-  height: 80vh;
-  margin-bottom: 20%;
-}
-
 .content{
   display: flex;
   margin-left: 0%;
@@ -761,46 +775,62 @@ p{
   font-size: 10px;
 
 }
-.content1 h2 {
-  padding: 30px;
-}
-.content1 h2 span {
-  color: brown;
-}
-.content1 {
-  width: 100%;
-  display: block;
-  gap: 10%;
-  height: auto;
-  margin-top: 5%;
-}
+#section_2 {
+  
+   
+    height: auto;
+  }
+  
+  
+  #section {
+    border-top: 0.001rem solid rgba(91, 88, 88, 0.283);
+    height: 10vh;
+    max-height: auto;
+    width: 80%;
+    margin-left: 10%;
+    cursor: pointer;
+    background: transparent;
+   
+  }
+  
+  #section_2 h2{
+    text-align: center;
+    margin-bottom: 10%;
+    background: transparent;
+  }
+  #section:last-child {
+    border-bottom: 0.001rem solid rgba(91, 88, 88, 0.283);
+  }
+  
+  .description {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+  }
+  
+  .description h4{
+    background: transparent;
+  }
+  .expand_more{
+    background: transparent;
+  }
+  .container {
+    position: relative;
+  
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    top: 0%;
+    background: transparent;
+   
+  }
 
-.content1 ul li {
-  padding: 10px;
-}
-
-.content1 button {
-  padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  bottom: 0;
-  position: relative;
-}
-
-.learn_more {
-  background: brown;
-  color: whitesmoke;
-  width: 30%;
-  padding: 10px;
-  border: none;
-  position: relative;
-  margin-top: 10%;
-}
-
-button{
-  width: 30%;
-  padding: 10px;
-  border: rgba(0, 0, 0, 0.8);
-}
+  .vid_discription {
+    margin: 15px 0px 15px 0px;
+    font-size: 12px;
+    padding: 20px;
+    border-radius: 10px;
+  }
   .cookie-container {
     z-index: 1;
     position: fixed;
@@ -852,7 +882,7 @@ button{
     color: white;
     width: 100%;
     gap: 10%;
-    margin-top: 30%;
+  
   }
   
   footer ul {
@@ -1013,7 +1043,7 @@ button{
    .remove{
     display: block;
     color: black;
-    background-color: whitesmoke;
+    background-color: white;
     margin-left: 119%;
     font-size: 35px;
     position: absolute;
@@ -1178,13 +1208,7 @@ button{
  
 } */
 
-#section_2 {
-  margin-left: 5%;
-  width: 90%;
 
-  height: 60vh;
-  margin-bottom: 20%;
-}
 
 
 .content{
@@ -1212,47 +1236,62 @@ p{
  width: 100%;
  border-radius: 10px;
 }
-
-.content1 h2 {
-  padding: 30px;
-}
-.content1 h2 span {
-  color: brown;
-}
-.content1 {
-  width: 100%;
-  display: block;
-  gap: 10%;
+#section_2 {
+  
+   
   height: auto;
-  margin-top: 5%;
+}
+
+
+#section {
+  border-top: 0.001rem solid rgba(91, 88, 88, 0.283);
+  height: 10vh;
+  max-height: auto;
+  width: 80%;
+  margin-left: 10%;
+  cursor: pointer;
+  background: transparent;
  
 }
 
-.content1 ul li {
-  padding: 10px;
+#section_2 h2{
+  text-align: center;
+  margin-bottom: 10%;
+  background: transparent;
+}
+#section_2:last-child {
+  border-bottom: 0.001rem solid rgba(91, 88, 88, 0.283);
+
 }
 
-.content1 button {
-  padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  bottom: 0;
+.description {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+}
+
+.description h4{
+  background: transparent;
+}
+.expand_more{
+  background: transparent;
+}
+.container {
   position: relative;
+
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+  top: 0%;
+  background: transparent;
+ 
 }
 
-.learn_more {
-  background: brown;
-  color: whitesmoke;
-  width: 30%;
-  padding: 10px;
-  border: none;
-  position: relative;
-  margin-top: 10%;
-}
-
-button{
-  width: 30%;
-  padding: 10px;
-  border: rgba(0, 0, 0, 0.8);
+.vid_discription {
+  margin: 15px 0px 15px 0px;
+  font-size: 12px;
+  padding: 20px;
+  border-radius: 10px;
 }
   .cookie-container {
     z-index: 1;
@@ -1305,7 +1344,7 @@ button{
     color: white;
     width: 100%;
     gap: 10%;
-    margin-top: 30%;
+   
   }
   
   footer ul {
