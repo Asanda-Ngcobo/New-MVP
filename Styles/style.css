@@ -249,9 +249,13 @@ header {
 
 #section_2 {
   
-width: 100%;
-background: rgb(241, 216, 216);
+width: 90%;
+margin-left: 5%;
+border: 0.001rem solid rgba(91, 88, 88, 0.283);
+
   height: 70vh;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 
@@ -269,6 +273,7 @@ background: rgb(241, 216, 216);
 #section_2 h2{
   text-align: center;
   padding: 5%;
+  
   background: transparent;
 }
 #section:last-child {
