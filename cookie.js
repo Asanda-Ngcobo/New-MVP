@@ -26,6 +26,7 @@ const remove = document.querySelector('.remove');
 const pages = document.querySelectorAll('.nav__link');
 const subMenu = document.querySelector('.sub__menu-1');
 const overlay = document.querySelector('.overlay');
+const getStarted = document.querySelector('.get--started');
 
 
 const openModal = function (){
@@ -46,6 +47,7 @@ const closeModal = function (){
 
 
 startNowBtn.addEventListener('click', openModal, );
+getStarted.addEventListener('click', openModal, );
 
 remove.addEventListener('click', closeModal);
    
