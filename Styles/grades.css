@@ -31,17 +31,17 @@
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     margin-left: 3%;
-    text-decoration: underline aquamarine;
+    text-decoration: underline black;
 }
 
 .covered a{
-    background-color: aquamarine;
+    background-color: black;
     border: none;
     padding: 10px;
     border-radius: 15px;
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .covered a:hover{
@@ -130,11 +130,11 @@ footer {
 .covered h5{
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    text-decoration: underline brown ;
+    text-decoration: underline black ;
 }
 
 .covered button{
-    background-color:brown;
+    background-color:black;
     border: none;
     padding: 10px;
     border-radius: 5px;
