@@ -190,7 +190,7 @@ header {
   background: whitesmoke;
 }
 .emphasis{
-  color: aquamarine;
+  color: black;
   font-weight: lighter;
   background: transparent;
 }
@@ -205,7 +205,7 @@ header {
 }
 
 .play_circle{
-  color: aquamarine;
+  color: black;
  
 }
 
@@ -827,7 +827,7 @@ footer ul li a:hover {
 
   .get--started{
     display: block;
-    background: aquamarine;
+    background: black;
     padding: 12px;
     color: white;
     border-radius: 30px;
@@ -841,7 +841,7 @@ footer ul li a:hover {
   }
 
   .play_circle{
-    color: aquamarine;
+    color: black;
    
   }
 
@@ -1360,7 +1360,7 @@ margin-left: 5%;
 
   .get--started{
     display: block;
-    background: aquamarine;
+    background: black;
     padding: 12px;
     color: white;
     border-radius: 30px;
@@ -1376,7 +1376,7 @@ margin-left: 5%;
   }
 
   .play_circle{
-    color: aquamarine;
+    color: black;
    
   }
  
