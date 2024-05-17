@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 * {
   background: white;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
 }
 body {
   z-index: 0;
@@ -23,11 +25,11 @@ nav {
 nav h4 {
   margin-top: 0.3%;
   background: transparent;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Poetsen One", sans-serif;
   font-weight: 400;
   font-style: normal;
   margin-left: 20px;
-  color: brown;
+  color: black;
 }
 .share {
   margin-right: 1%;
@@ -304,8 +306,8 @@ table tr td{
 }
 footer {
   background: black;
-  height: 50vh;
-  margin-bottom: 0%;
+  height: 100vh;
+  bottom: 0%;
   display: flex;
   color: white;
   width: 100%;
