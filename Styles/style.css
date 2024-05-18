@@ -46,7 +46,7 @@ nav ul li {
   padding: 10px;
   font-weight: bolder;
   list-style: none;
-  padding: 10px;
+font-size: 14px;
 }
 
 .material-icons.outlined  {
@@ -213,6 +213,32 @@ ul li{
   list-style: none;
   font-size: 10px;
 }
+.meet_disciplina{
+  position: fixed;
+  top: 0%;
+  bottom: 0;
+  height: 96vh;
+  width: 100%;
+ 
+  z-index: 20;
+ 
+}
+
+.meet_disciplina video{
+  height: 80vh;
+  margin-top: 0vh;
+  width: 100%;
+  bottom: 0;
+
+}
+.meet_disciplina .goback{
+  font-size: 30px;
+  color: black;
+  margin-top: 8vh;
+  margin-left: 98%;
+  cursor: pointer;
+}
+
 #commitment h2 {
   display: none;
 }
@@ -313,7 +339,7 @@ display: flex;
   border: none;
   width: auto;
   cursor: pointer;
-  background: aquamarine;
+  background: black;
   margin-left: 30%;
 }
 
@@ -466,17 +492,64 @@ h3{
 }
 
 
-
-
-
-
-
 .hide {
   display: none;
 }
 
+.periodic--table{
+  height: auto;
+  width: 100%;
+  background: black;
+  text-align: center;
+}
 
 
+.periodic--table .container{
+  background: black;
+  top: 5%;
+  padding: 50px;
+   
+ }
+.container h2{
+  color: white;
+  font-size: 40px;
+  position: relative;
+  background-color: black;
+ 
+}
+
+
+
+.container p{
+  color: white;
+  font-size: 12px;
+  position: relative;
+  background-color: black;
+  padding: 15px;
+ 
+}
+
+.container a{
+  text-decoration: none;
+  background: transparent;
+  color: aquamarine;
+  padding: 15px;
+}
+
+.container .media{
+  background: transparent;
+  display: block;
+  width: 100%;
+}
+
+.container .media img{
+
+  width: 60%;
+  background: transparent;
+  border-radius: 10px;
+padding: 10px;
+
+}
 .cookie-container {
   position: fixed;
   width: 100%;
@@ -849,6 +922,31 @@ footer ul li a:hover {
     list-style: none;
     font-size: 10px;
   }
+
+  .meet_disciplina{
+    position: fixed;
+    top: 0%;
+    bottom: 0;
+    height: 96vh;
+    width: 100%;
+   
+    z-index: 20;
+   
+  }
+
+  .meet_disciplina video{
+    height: 80vh;
+    margin-top: 0vh;
+    width: 100%;
+    bottom: 0;
+
+  }
+  .meet_disciplina .goback{
+    font-size: 30px;
+    color: black;
+    margin-top: 8vh;
+    margin-left: 90%;
+  }
   .underline{
     background: transparent;
   }
@@ -1000,9 +1098,46 @@ margin-left: 5%;
     border-radius: 10px;
   }
 
-  
+  .container h2{
 
+    font-size: 15px;
+
+   
+  }
   
+  .container p{
+    color: white;
+    font-size: 8px;
+    position: relative;
+    background-color: black;
+    padding: 15px;
+   
+  }
+  
+  .container a{
+    text-decoration: none;
+    background: transparent;
+    color: aquamarine;
+    padding: 10px;
+  }
+  
+  .container .media{
+    background: transparent;
+    display: block;
+    width: 100%;
+  }
+  
+  .container .media img{
+  
+    width: 150%;
+    background: transparent;
+    border-radius: 10px;
+    position: relative;
+    right: 20%;
+  
+  }
+
+ 
   .cookie-container {
     z-index: 1;
     position: fixed;
@@ -1391,10 +1526,29 @@ margin-left: 5%;
   
   .meet_disciplina{
     position: fixed;
-    top: 0;
-    height: 100vh;
+    top: 0%;
+    bottom: 0;
+    height: 96vh;
     width: 100%;
+   
+    z-index: 20;
+   
   }
+
+  .meet_disciplina video{
+    height: 80vh;
+    margin-top: 0vh;
+    width: 100%;
+    bottom: 0;
+
+  }
+  .meet_disciplina .goback{
+    font-size: 30px;
+    color: black;
+    margin-top: 8vh;
+    margin-left: 90%;
+  }
+  
   .collection p {
     font-size: 12px;
     margin-top: 4%;
@@ -1554,7 +1708,44 @@ margin-left: 5%;
 }
 
 
+.container h2{
 
+  font-size: 15px;
+
+ 
+}
+
+.container p{
+  color: white;
+  font-size: 8px;
+  position: relative;
+  background-color: black;
+  padding: 15px;
+ 
+}
+
+.container a{
+  text-decoration: none;
+  background: transparent;
+  color: aquamarine;
+  padding: 10px;
+}
+
+.container .media{
+  background: transparent;
+  display: block;
+  width: 100%;
+}
+
+.container .media img{
+
+  width: 150%;
+  background: transparent;
+  border-radius: 10px;
+  position: relative;
+  right: 20%;
+
+}
   .cookie-container {
     z-index: 1;
     position: fixed;
