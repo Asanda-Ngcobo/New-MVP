@@ -11,6 +11,7 @@
   color: white;
 }
 
+
 .test0:hover {
   opacity: 0.8;
   cursor: pointer;
@@ -126,6 +127,17 @@
 .notshown {
   display: none;
 }
+
+.cross{
+  height: 5%;
+}
+.check{
+  height: 5%;
+}
+
+.diagram img{
+  width: 40%;
+}
 .quiz {
   height: auto;
   background-color: black;
@@ -140,14 +152,14 @@
 }
 
 .quiz p {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 15px;
   margin: 10px;
 }
 
 .quiz p sup {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 12px;
 }
@@ -188,23 +200,23 @@
 }
 
 .chances {
-  background-color: black;
+  background: transparent;
   color: white;
 }
 
 .getout {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 25px;
   margin-left: 96%;
   cursor: pointer;
 }
 .sup {
-  background-color: black;
+  background: transparent;
   color: white;
 }
 .next {
-  background-color: antiquewhite;
+  background-color: white;
   padding: 10px;
   margin-left: 70%;
   cursor: pointer;
@@ -224,14 +236,14 @@
 }
 
 .quiz2 p {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 15px;
   margin: 10px;
 }
 
 .quiz2 p sup {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 12px;
 }
@@ -271,16 +283,10 @@
   border-radius: 20px;
 }
 
-.getout2 {
-  background-color: black;
-  color: white;
-  font-size: 25px;
-  margin-left: 96%;
-  cursor: pointer;
-}
+
 
 .chances2 {
-  background-color: black;
+  background: transparent;
   color: white;
 }
 
@@ -305,14 +311,14 @@
 }
 
 .quiz3 p {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 15px;
   margin: 10px;
 }
 
 .quiz3 p sup {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 12px;
 }
@@ -352,16 +358,10 @@
   border-radius: 20px;
 }
 
-.getout3 {
-  background-color: black;
-  color: white;
-  font-size: 25px;
-  margin-left: 96%;
-  cursor: pointer;
-}
+
 
 .chances3 {
-  background-color: black;
+  background: transparent;
   color: white;
 }
 
@@ -386,14 +386,14 @@
 }
 
 .quiz4 p {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 15px;
   margin: 10px;
 }
 
 .quiz4 p sup {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 12px;
 }
@@ -432,16 +432,9 @@
   border-radius: 20px;
 }
 
-.getout4 {
-  background-color: black;
-  color: white;
-  font-size: 25px;
-  margin-left: 96%;
-  cursor: pointer;
-}
 
 .chances4 {
-  background-color: black;
+  background: transparent;
   color: white;
 }
 
@@ -451,6 +444,7 @@
   margin-left: 70%;
   cursor: pointer;
 }
+
 .quiz5 {
   height: auto;
   background-color: black;
@@ -460,19 +454,20 @@
   top: 10%;
   width: 60%;
   left: 20%;
-  height: 80vh;
+  min-height: 80vh;
+  max-height: 90vh;
   z-index: 10;
 }
 
 .quiz5 p {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 15px;
   margin: 10px;
 }
 
 .quiz5 p sup {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 12px;
 }
@@ -486,6 +481,7 @@
   left: 10%;
   font-size: 14px;
 }
+
 
 .answer5 {
   text-decoration: none;
@@ -512,21 +508,15 @@
   border-radius: 20px;
 }
 
-.getout5 {
-  background-color: black;
-  color: white;
-  font-size: 25px;
-  margin-left: 96%;
-  cursor: pointer;
-}
+
 
 .chances5 {
-  background-color: black;
+  background: transparent;
   color: white;
 }
 
 .next5 {
-  background-color: white;
+  background: color;
   padding: 10px;
   margin-left: 70%;
   cursor: pointer;
@@ -546,14 +536,14 @@
 }
 
 .quiz6 p {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 15px;
   margin: 10px;
 }
 
 .quiz6 p sup {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 12px;
 }
@@ -587,22 +577,16 @@
 
 .answer6:hover {
   font-weight: bolder;
-  background-color: white;
+  background: white;
   color: black;
   border: 0.1rem solid black;
   border-radius: 20px;
 }
 
-.getout6 {
-  background-color: black;
-  color: white;
-  font-size: 25px;
-  margin-left: 96%;
-  cursor: pointer;
-}
+
 
 .chances6 {
-  background-color: black;
+  background: transparent;
   color: white;
 }
 
@@ -627,14 +611,14 @@
 }
 
 .quiz7 p {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 15px;
   margin: 10px;
 }
 
 .quiz7 p sup {
-  background-color: black;
+  background-color: transparent;
   color: white;
   font-size: 12px;
 }
@@ -674,16 +658,10 @@
   border-radius: 20px;
 }
 
-.getout7 {
-  background-color: black;
-  color: white;
-  font-size: 25px;
-  margin-left: 96%;
-  cursor: pointer;
-}
+
 
 .chances7 {
-  background-color: black;
+  background-color: transparent;
   color: white;
 }
 
@@ -708,14 +686,14 @@
 }
 
 .quiz8 p {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 15px;
   margin: 10px;
 }
 
 .quiz8 p sup {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 12px;
 }
@@ -755,16 +733,9 @@
   border-radius: 20px;
 }
 
-.getout8 {
-  background-color: black;
-  color: white;
-  font-size: 25px;
-  margin-left: 96%;
-  cursor: pointer;
-}
 
 .chances8 {
-  background-color: black;
+  background: transparent;
   color: white;
 }
 
@@ -789,14 +760,14 @@
 }
 
 .quiz9 p {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 15px;
   margin: 10px;
 }
 
 .quiz9 p sup {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 12px;
 }
@@ -836,16 +807,8 @@
   border-radius: 20px;
 }
 
-.getout9 {
-  background-color: black;
-  color: white;
-  font-size: 25px;
-  margin-left: 96%;
-  cursor: pointer;
-}
-
 .chances9 {
-  background-color: black;
+  background: transparent;
   color: white;
 }
 
@@ -855,6 +818,7 @@
   margin-left: 70%;
   cursor: pointer;
 }
+
 .quiz10 {
   height: auto;
   background-color: black;
@@ -869,14 +833,14 @@
 }
 
 .quiz10 p {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 15px;
   margin: 10px;
 }
 
 .quiz10 p sup {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 12px;
 }
@@ -916,16 +880,9 @@
   border-radius: 20px;
 }
 
-.getout10 {
-  background-color: black;
-  color: white;
-  font-size: 25px;
-  margin-left: 96%;
-  cursor: pointer;
-}
 
 .chances10 {
-  background-color: black;
+  background: transparent;
   color: white;
 }
 
@@ -950,14 +907,14 @@
 }
 
 .quiz11 p {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 15px;
   margin: 10px;
 }
 
 .quiz11 p sup {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 12px;
 }
@@ -997,16 +954,10 @@
   border-radius: 20px;
 }
 
-.getout11 {
-  background-color: black;
-  color: white;
-  font-size: 25px;
-  margin-left: 96%;
-  cursor: pointer;
-}
+
 
 .chances11 {
-  background-color: black;
+  background: transparent;
   color: white;
 }
 
@@ -1031,14 +982,14 @@
 }
 
 .quiz12 p {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 15px;
   margin: 10px;
 }
 
 .quiz12 p sup {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 12px;
 }
@@ -1078,16 +1029,8 @@
   border-radius: 20px;
 }
 
-.getout12 {
-  background-color: black;
-  color: white;
-  font-size: 25px;
-  margin-left: 96%;
-  cursor: pointer;
-}
-
 .chances12 {
-  background-color: black;
+  background-color: transparent;
   color: white;
 }
 
@@ -1112,14 +1055,14 @@
 }
 
 .quiz13 p {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 15px;
   margin: 10px;
 }
 
 .quiz13 p sup {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 12px;
 }
@@ -1159,16 +1102,9 @@
   border-radius: 20px;
 }
 
-.getout13 {
-  background-color: black;
-  color: white;
-  font-size: 25px;
-  margin-left: 96%;
-  cursor: pointer;
-}
 
 .chances13 {
-  background-color: black;
+  background-color: transparent;
   color: white;
 }
 
@@ -1193,14 +1129,14 @@
 }
 
 .quiz14 p {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 15px;
   margin: 10px;
 }
 
 .quiz14 p sup {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 12px;
 }
@@ -1240,16 +1176,10 @@
   border-radius: 20px;
 }
 
-.getout14 {
-  background-color: black;
-  color: white;
-  font-size: 25px;
-  margin-left: 96%;
-  cursor: pointer;
-}
+
 
 .chances14 {
-  background-color: black;
+  background: transparent;
   color: white;
 }
 
@@ -1274,14 +1204,14 @@
 }
 
 .quiz15 p {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 15px;
   margin: 10px;
 }
 
 .quiz15 p sup {
-  background-color: black;
+  background: transparent;
   color: white;
   font-size: 12px;
 }
@@ -1321,16 +1251,9 @@
   border-radius: 20px;
 }
 
-.getout15 {
-  background-color: black;
-  color: white;
-  font-size: 25px;
-  margin-left: 96%;
-  cursor: pointer;
-}
 
 .chances15 {
-  background-color: black;
+  background: transparent;
   color: white;
 }
 
@@ -1341,124 +1264,159 @@
   cursor: pointer;
 }
 .interger {
-  background-color: black;
+  background-color: transparent;
 }
 .interger1 {
-  background-color: black;
+  background-color: transparent;
 }
 
 .interger2 {
-  background-color: black;
+  background-color:transparent;
 }
 .interger3 {
-  background-color: black;
+  background-color: transparent;
 }
 
 .interger4 {
-  background-color: black;
+  background-color: transparent;
 }
 .interger5 {
-  background-color: black;
+  background-color: transparent;
 }
 
 .interger6 {
-  background-color: black;
+  background-color: transparent;
 }
 .interger7 {
-  background-color: black;
+  background-color: transparent;
 }
 
 .interger8 {
-  background-color: black;
+  background-color: transparent;
 }
 
+.interger9 {
+  background-color:transparent;
+}
+
+.interger10 {
+  background-color:transparent;
+}
+
+.interger11 {
+  background-color:transparent;
+}
+.interger12 {
+  background-color:transparent;
+}
 .interger13 {
-  background-color: black;
+  background-color:transparent;
 }
 .interger14 {
-  background-color: black;
+  background-color:transparent;
 }
 .interger35 {
-  background-color: black;
+  background-color: transparent;
 }
 .interger36 {
-  background-color: black;
+  background-color: transparent;
 }
 .interger15 {
-  background-color: black;
+  background-color:transparent;
 }
 .interger16 {
-  background-color: black;
+  background-color: transparent;
 }
 .interger17 {
-  background-color: black;
+  background-color: transparent;
 }
 .interger18 {
-  background-color: black;
+  background-color: transparent;
 }
 
 .interger19 {
-  background-color: black;
+  background-color:transparent;
 }
 
 .interger20 {
-  background-color: black;
+  background-color: transparent;
 }
 .interger21 {
-  background-color: black;
+  background-color:transparent;
 }
 .interger22 {
-  background-color: black;
+  background-color: transparent;
 }
 .interger23 {
-  background-color: black;
+  background-color: transparent
 }
 
 .interger24 {
-  background-color: black;
+  background-color: transparent;
 }
 .interger25 {
-  background-color: black;
+  background-color: transparent;
 }
 .interger26 {
-  background-color: black;
+  background-color:transparent;
 }
 
 .interger27 {
-  background-color: black;
+  background-color: transparent;
 }
 
 .interger28 {
-  background-color: black;
+  background-color: transparent;
 }
 .interger29 {
-  background-color: black;
+  background-color:transparent;
 }
 .interger30 {
-  background-color: black;
+  background-color: transparent
 }
 .interger31 {
-  background-color: black;
+  background-color: transparent;
 }
 
 .interger32 {
-  background-color: black;
+  background-color: transparent
 }
 .interger33 {
-  background-color: black;
+  background-color: transparent;
 }
 .interger34 {
-  background-color: black;
+  background-color: transparent;
 }
 .interger35 {
-  background-color: black;
+  background-color: transparent;
 }
 .interger36 {
-  background-color: black;
+  background-color: transparent;
+}
+.interger37 {
+  background-color: transparent;
+}
+
+.interger38 {
+  background-color: transparent;
 }
 
 .random {
-  background-color: black;
+  background-color:transparent;
+}
+
+.random2 {
+  background-color:transparent;
+}
+.random3 {
+  background-color:transparent;
+}
+.random4 {
+  background-color:transparent;
+}
+
+i{
+  background: transparent;
 }
 .grades {
   height: auto;
@@ -1636,8 +1594,12 @@ border: 1px solid black;
           width: 30%;
           border: 1px solid black;
           }
-
+          
           @media screen and (min-width: 300px) and (max-width: 480px) {
+
+            .diagram img{
+              width: 100%;
+            }
             .quiz {
               height: auto;
               background-color: black;
@@ -1725,7 +1687,7 @@ border: 1px solid black;
               border-radius: 10px;
               padding: 10px;
               position: fixed;
-              top: 10%;
+              top: 5%;
               width: 80%;
               left: 10%;
               min-height: 40vh;
@@ -2019,3 +1981,6 @@ border: 1px solid black;
             
 
           }
+
+        
+         
