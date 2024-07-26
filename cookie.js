@@ -26,7 +26,10 @@ const remove = document.querySelector('.remove');
 const pages = document.querySelectorAll('.nav__link');
 const subMenu = document.querySelector('.sub__menu-1');
 const overlay = document.querySelector('.overlay');
-const getStarted = document.querySelector('.get--started');
+
+const playVideo = document.querySelector('.play_circle');
+const goBack = document.querySelector('.goback');
+const meetDisciplina = document.querySelector('.meet_disciplina');
 
 
 const openModal = function (){
@@ -47,14 +50,23 @@ const closeModal = function (){
 
 
 startNowBtn.addEventListener('click', openModal, );
-getStarted.addEventListener('click', openModal, );
-
 remove.addEventListener('click', closeModal);
    
 for(let i = 0; i <pages.length; i++){
   pages[i].addEventListener('click', closeModal);
   
 }
+
+playVideo.addEventListener('click', ()=>{
+meetDisciplina.classList.remove("hide")
+overlay.classList.remove("hide")
+})
+
+goBack.addEventListener('click', ()=>{
+  meetDisciplina.classList.add("hide")
+  overlay.classList.add("hide")
+  location.reload();
+  })
 
 // const message = document.createElement('div'); //create a div elemetnt
 // message.classList.add('announcement-message');
