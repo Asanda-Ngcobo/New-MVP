@@ -1,1855 +1,2301 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Golos+Text&family=Montserrat&display=swap");
-* {
-  background: whitesmoke;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bolder;
+.test0 {
+  width: 50%;
+  color: black;
+
+  background-color: black;
+  font-weight: 700;
+  margin: 2%;
+  padding: 10px;
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  margin-left: 25%;
+  color: white;
 }
 
-html {
-  scroll-behavior: smooth;
-  font-family: "Montserrat", sans-serif;
-}
-body{
-  width: 100%;
-  background: whitesmoke;
+
+.test0:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
-nav {
-  width: 100%;
+.test {
+  width: 50%;
+  color: black;
+
+  background-color: black;
+  font-weight: 700;
+  margin: 2%;
+  padding: 10px;
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  margin-left: 25%;
+  color: white;
+}
+
+.test:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.test2 {
+  width: 50%;
+  color: black;
+
+  background-color: black;
+  font-weight: 700;
+  margin: 2%;
+  padding: 10px;
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  margin-left: 25%;
+  color: white;
+}
+
+.test2:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.test3 {
+  width: 50%;
+  color: black;
+
+  background-color: black;
+  font-weight: 700;
+  margin: 2%;
+  padding: 10px;
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  margin-left: 25%;
+  color: white;
+}
+
+.test3:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.test4 {
+  width: 50%;
+  color: black;
+
+  background-color: black;
+  font-weight: 700;
+  margin: 2%;
+  padding: 10px;
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  margin-left: 25%;
+  color: white;
+}
+
+.test4:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.test5 {
+  width: 50%;
+  color: black;
+
+  background-color: black;
+  font-weight: 700;
+  margin: 2%;
+  padding: 10px;
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  margin-left: 25%;
+  color: white;
+}
+
+.test5:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.test6 {
+  width: 50%;
+  color: black;
+
+  background-color: black;
+  font-weight: 700;
+  margin: 2%;
+  padding: 10px;
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  margin-left: 25%;
+  color: white;
+}
+
+.test6:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.notshown {
+  display: none;
+}
+
+.cross{
+  height: 5%;
+}
+.check{
+  height: 5%;
+}
+
+.diagram img{
+  width: 30%;
+}
+
+.demo{
+  background: transparent;
+}
+
+.demo img{
+  width: 20%;
+ 
+}
+.quiz {
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
   position: fixed;
-  z-index: 1;
-  top: 0;
-  height: 7vh;
-  margin-bottom: 5%;
-  justify-content: space-between;
-  display: inline-flex;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
-}
-
-nav h1 {
-  margin-top: 0.3%;
-  background: transparent;
-  font-family: "Poetsen One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  margin-left: 20px;
-  color: black;
-
-}
-
-nav ul li {
-  display: inline-block;
-  padding: 10px;
-  font-weight: bolder;
-  list-style: none;
-font-size: 14px;
-}
-
-.material-icons.outlined  {
-  display: none;
- 
-}
-.mobile__header .material-icons.menu{
-  
-  display: none;
-
-  
-}
-
-#header .material-icons.share{
-  
-  display: none;
-
-  
-}
-.remove{
-  display: none;
-}
-nav ul li a {
-  text-decoration: none;
-  color: rgb(44, 43, 43);
-  font-weight: bolder;
-  font-size: 15px;
-}
-nav ul li:hover{
-  cursor: pointer;
- color: rgba(116, 40, 40, 0.5);
- padding: 10px;
-
-}
-
-
-nav ul li a:hover{
-  
-  cursor: pointer;
-  color: rgba(116, 40, 40, 0.5);
-  padding: 10px;
-  
-}
-
-
-
-.hide{
-  display: none;
-}
-
-.sub__menu-1{
-  display: none;
-}
-nav ul li:hover .sub__menu-1{
-  display: block;
-  
-  transition: 200ms;
-  position: absolute;
-  height: auto;
-margin-top: 10px;
-margin-left: -15px;
-box-shadow: 0px 2px 10px black;
-border-radius: 10px;
-width: 20%;
-
-
-}
-
-.sub__menu-1 ul{
-  display: block;
-  margin: 10px;
-}
-
-.sub__menu-1 ul li{
-  display: block;
-  
-  padding: 20px;
-  
-  background: transparent;
-  text-align: left;
- 
-}
-
-
-
-.sub__menu-1 ul li a{
-  cursor: pointer;
-}
-
-.sub__menu-1 a:hover{
-text-decoration: underline;
-
- 
-}
-.sub__menu-1 a:hover {
-  color: grey;
-}
-
-
-.science{
-  display: none;
-}
-
-header {
-  height: auto;
-  margin-top: 3%;
-
-  width: 100%;
-  background: whitesmoke;
-}
-
-.header__title {
-  display: flex;
-
-  gap: 10%;
-  width: 100%;
-  background: transparent;
-}
-
-#main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-  background-size: cover;
-  background-position: center;
-  color: white;
-  text-align: center;
-  font-size: 3em;
-  font-weight: bold;
-
- 
-}
-
-.hero{
-  width: 50%;
-  padding: 20px;
-  border-radius: 10px;
- 
-
-}
-
-.hero h1{
-  margin-bottom: 20px;
-  color: black;
-  background: transparent;
-  font-size: 50px;
-}
-
-.hero p{
-  color: grey;
-  font-size: 0.6em;
-  margin-bottom: 50px;
- 
-}
-.hero .visuals{
-  width: 100%;
-}
-
-.phone-visuals{
-  display: none;
-}
-.hero video{
-  width: 80%;
- 
-  object-fit: cover;
-  border-radius: 10px;
-}
-.emphasis{
-  color: black;
-  font-weight: lighter;
-  background: transparent;
-}
-
-.get--started{
-  display: none;
-}
-
-.material-symbols-outlined {
-  font-size: 35px;
-
-}
-
-.play_circle{
-  color: rgba(104, 177, 173, 0.342);
-  
- 
-}
-
-.play_circle:hover{
-cursor: pointer;
-}
-ul li{
-  list-style: none;
-  font-size: 10px;
-}
-
-
-.collection{
-  background: transparent;
-  width: 80%;
-  margin-left: 10%;
-}
-.collection p {
-  font-size: 12px;
-  margin-top: 4%;
-  margin-left: 5%;
-  padding: 10px;
-  background: transparent;
-}
-.image img{
-    border-radius: 55%;
-  }
-.numbers {
-  display: flex;
-  padding: 30px;
-  gap: 5%;
-  justify-items: center;
-  width: 90%;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  margin: 5%;
-  height: auto;
-}
-
-.numbers .data {
-  width: 33%;
-}
-
-.data p {
-  font-weight: bold;
-}
-
-.data span {
-  font-weight: bolder;
-}
-
-#sections h1 {
-  margin-left: 3%;
-  padding: 0px 30px 30px 30px;
-}
-
-#sections p {
-  margin-left: 3%;
-  padding: 30px;
-}
-
-#section__1 {
-  width: 100%;
-  background: rgb(0, 0, 0);
-  height: 70vh;
-}
-
-#section__1 video {
-  background: rgb(0, 0, 0);
-}
-
-#section_2 {
-  
-width: 90%;
-margin-left: 5%;
-border: 0.001rem solid rgba(91, 88, 88, 0.283);
-display: flex;
-  height: 70vh;
-  margin-bottom: 5%;
-  margin-top: 5%;
-  justify-content: space-between;
-  gap: 20px;
-}
-
-.div__1{
-  width: 45%;
-  margin-left: 2.5%;
-}
-#section {
-  border-top: 0.001rem solid rgba(91, 88, 88, 0.283);
-  height: 10vh;
-  max-height: auto;
- 
-  cursor: pointer;
-  background: transparent;
- 
- 
-}
-
-
-.learn--more{
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  padding: 1%;
-  border-radius: 10px;
-  border: none;
-  width: auto;
-  cursor: pointer;
-  background: black;
-  margin-left: 30%;
-}
-
-.learn--more:hover{
-  text-decoration: none;
-  background: rgb(135, 171, 219);
-}
-
-#section_2 h2{
-  text-align: center;
-  padding: 5%;
-  color: rgba(104, 177, 173, 0.342);
-  
-  background: transparent;
-}
-#section:last-child {
-  border-bottom: 0.001rem solid rgba(91, 88, 88, 0.283);
-}
-
-.description {
-  display: flex;
-  justify-content: space-between;
-  background: transparent;
-}
-
-.description h4{
-  background: transparent;
-}
-.expand_more{
-  background: transparent;
-}
-
-.expand_less{
-  background: transparent;
-  margin-left: 95%;
-}
-.container {
-  position: relative;
-
-  width: 90%;
-  margin-left: 5%;
-  height: auto;
-  top: 0%;
-  background: transparent;
- 
-}
-.vid_discription {
-  margin: 15px 0px 15px 0px;
-  font-size: 14px;
-  padding: 20px;
-  border-radius: 10px;
-  width: 100%;
-}
-.escape {
-  margin-left: 100%;
-  padding: 10px;
-  font-size: 20px;
-
-  font-weight: bolder;
-  background: none;
-  cursor: pointer;
-}
-
-.div__2 {
-  width: 50%;
- 
-
-  padding: 10px;
-
-  
- 
-}
-
-.div__2 input {
-  width: 100%;
-  border: none;
-  background: white;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-}
-
-.div__2 button {
-  padding: 8px;
-  background: rgba(104, 177, 173, 0.342);;
-  color: white;
-  font-weight: bold;
-  border: none;
-  border-radius: 10px;
-  font-size: 15px;
-}
-
-.div__2 textarea {
-  width: 100%;
-  padding: 10px;
-  min-height: 20vh;
-  max-height: auto;
-  border: none;
-  background: white;
-  border-radius: 5px;
-}
-
-
-.section__3{
-  width: 100%;
-  background: white;
-  height: auto;
-  border-bottom: 1px solid black;
-  margin-top: 5%;
-  margin-bottom: 10%;
- 
-
-}
-
-
-
-
-.content{
-  display: flex;
-width: 80%;
-  padding: 10px;
-  margin-left: 10%;
-  padding: 30px;
-
-  
-  margin-top: 1%;
-  border-radius: 10px;
-  height: 80%;
-}
-
-
-
-.content p{
- 
-  margin-top: 5%;
-  width: 50%;
-  margin: 10%;
- 
-  
-}
-.content img{
-  width: 100%;
-  border-radius: 10px;
-  margin-top: 3%;
-}
-.content h2{
-  margin-left: 10%;
-  font-size: 20px;
-  color: rgba(104, 177, 173, 0.6);
-}
-
-h3{
-  margin-left: 10%;
-}
-
-
-.hide {
-  display: none;
-}
-
-.periodic--table{
-  height: auto;
-  width: 100%;
-  background: black;
-  text-align: center;
-}
-
-
-.periodic--table .container{
-  background: black;
-  top: 5%;
-  padding: 50px;
-   
- }
-.container h2{
-  color: white;
-  font-size: 40px;
-  position: relative;
-  background-color: black;
- 
-}
-
-
-
-.container p{
-  color: white;
-  font-size: 12px;
-  position: relative;
-  background-color: black;
-  padding: 15px;
- 
-}
-
-.container a{
-  text-decoration: none;
-  background: transparent;
-  color: aquamarine;
-  padding: 15px;
-}
-
-.container a:hover{
-  opacity: 0.6;
-}
-
- .media{
-  background: transparent;
-  display: block;
-  width: 100%;
-}
-
-.media img{
-
+  top: 10%;
   width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 10;
+}
+
+.quiz p {
   background: transparent;
-  border-radius: 10px;
-padding: 10px;
-
-}
-.cookie-container {
-  position: fixed;
-  width: 100%;
-  height: 25%;
-  bottom: -100%;
-  z-index: 1;
-  left: 0;
-  right: 0;
-  background: white;
-  transition: 400ms;
-  box-shadow: 0 4px 16px rgba(47, 54, 64, alpha);
-}
-
-.cookie-container.active {
-  bottom: 0;
-}
-.cookie-container p {
-  color: black;
-  margin: 10px;
-  padding: 5px;
-  font-size: 16px;
-  background: white;
-}
-
-.cookie-container p a {
-  font-size: 16px;
-  background: white;
-}
-.cookie-btn {
-  left: 80%;
-  right: 0;
-  margin-bottom: 80%;
-  padding: 10px;
-  position: relative;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.cookie-btn:hover {
-  text-decoration: underline;
-  font-weight: 500;
-}
-
-footer {
-  background: black;
-  height: 40vh;
-  margin-bottom: 0%;
-  display: flex;
   color: white;
-  width: 100%;
-  gap: 10%;
- 
-}
-
-footer ul {
-  text-decoration: none;
-  background: black;
-}
-footer ul li {
-  display: block;
-  text-decoration: none;
-  list-style: none;
-  padding: 10px;
-  background: black;
-}
-footer ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 12px;
-  background: black;
-}
-footer ul li a:hover {
-  opacity: 0.8;
-}
-
-.copyright {
-  background: black;
-  color: white;
-  font-size: 12px;
-}
-.copyright a {
-  background: black;
-  color: white;
-  font-size: 12px;
-  text-decoration: none;
-}
-.copyright a:hover {
-  opacity: 0.8;
-}
-
-.current_year {
-  background: black;
-  color: white;
-}
-@media screen and (min-width: 300px) and (max-width: 400px) {
-  * {
-    background: whitesmoke;
-  }
-
-  html {
-    scroll-behavior: smooth;
-  }
-
-  nav {
-    width: 100%;
-    position: fixed;
-
-    top: 0;
-    height: 8%;
-    margin-bottom: 1%;
-    justify-content: space-between;
-    z-index: 20;
-  }
- 
-  .mobile__header .material-icons.menu{
-    font-size: 20px;
-    font-weight: lighter;
-    margin-top: 15%;
-    display: block;
-  color: rgba(31, 175, 168, 0.342);
-    
-  }
-
-  #header .material-icons.share{
-  
-    display: block;
-    color: rgba(104, 177, 173, 0.342);
-    
-  }
-
-  
-  nav h1 {
-    margin-top: 3%;
-   
-   
-  }
-  nav ul {
-    display: block;
-  }
- 
-  .science{
-    display: block;
-
-  }
-
-  .science a{
-    font-size: 12px;
-    background: white;
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 300vh;
-    background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(3px);
-    z-index: 5;
-  }
-
-  .header__title {
-    margin-top: 1%;
-  }
-
-  
-  .material-icons.outlined  {
-    display: flex;
-    color: rgba(0, 0, 0, 0.54);
-   
-    font-size: 12px;
-    background: transparent;
-  }
-
-  .subject {
-    display: flex;
-    justify-content: space-between;
-    font-size: 12px;
-    background: transparent;
-  }
-  
-  .nav__links{
-    margin-left: 0%;
-    min-height: 100vh;
-    width: 80%;
-    top: 8%;
-    background-color: white;
-   
-    font-weight: 700;
-    border-top-left-radius: 20px;
-    position: fixed;
-    border-top: 1px solid grey;
-    
-    
-    }
-    
-
-
-    .notes{
-       margin-left: -100%;
-    }
-   
-   
-   .button{
-       margin-left: 10%;
-   }
-   .remove{
-    display: block;
-    color: black;
-    background-color: whitesmoke;
-    margin-left: 112%;
-    font-size: 35px;
-    position: absolute;
-    margin-top: -16%;
-    font-weight: lighter;
-    cursor: pointer;
-   }
-    
-    nav ul li{
-        display: block;
-        padding: 10px;
-        padding: 20px;
-        background-color: white;
-        margin-left: 0;
-        color: black;
-        
-    }
-    
-    nav ul li img{
-       background-color: white;
-   }
-
-  
-    nav ul li:last-child{
-       display: block;
-   }
-    nav ul li a{
-       background-color: white;
-       color: black;
-    }
-  
-    nav ul li:hover{
-      cursor: pointer;
-     color: rgba(116, 40, 40, 0.5);
-     padding: 10px;
-    
-    }
-    nav ul li:hover .sub__menu-1{
-       display: block;
-       width: 80%;
-       transition: 200ms;
-       position: fixed;
-       height: auto;
-     margin-top: 10px;
-     margin-left: 50px;
-     box-shadow: 0px 2px 3px black;
-     background: white;
-    
-     
-   
-   }
-   
-   .sub__menu-1 ul{
-       display: block;
-       margin: 10px;
-       background-color: white;
-    
-       
-   }
-   
-   .sub__menu-1 ul li{
-       display: block;
-       width: 100px;
-       height: 80px;
-       padding: 20px;
-       background: white;
-       
-       
-       text-align: left;
-       width: 100%;
-      
-   }
-
-   .sub__menu-1 ul li:first-child{
-    margin-left: 0;
-    
-   }
-   
-   .sub__menu-1 ul li a{
-       cursor: pointer;
-       background-color: white;
-       color: black;
-       display: block;
-       font-size: 12px;
-       padding: 20px;
-       
-   }
-   
-   .sub__menu-1 ul li:hover{
-    text-decoration: underline;
-   }
-   
-
-  header {
-   
-    margin-top: 15%;
-  }
-
-  .mobile--visible {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 3%;
-  }
-  .header__title {
-    display: block;
-    margin-left: 5%;
-   
-    width: 90%;
-  }
-  .header__title h4 {
-    font-size: 20px;
-    padding: 20px;
-    margin-top: 10%;
-    text-align: center;
-  
-  
-    font-family: "Roboto", "Helvetica Neue", sans-serif;
-  }
-
-  .header__title p {
-    font-size: 10px;
-    padding: 20px;
-    
-    margin-left: 4%;
-  
-    
-  }
-
-  
-#main{
-  display: block;
-  
- 
-}
-
-.hero{
-  width: 90%;
-  padding: 20px;
-  border-radius: 10px;
- margin-left: 5%;
-
-}
-.hero h1{
-  font-size: 30px;
-}
-
-.hero p{
-  font-size: 8px;
-}
-
-.phone-visuals{
-  display: block;
-  width: 80%;
-}
-.visuals{
-  display: none;
-}
-  .material-symbols-outlined {
-    font-size: 35px;
-  
-  }
-
-  .play_circle{
-    color:rgba(31, 175, 168, 0.342);
-   
-  }
-
-  ul li{
-    list-style: none;
-    font-size: 10px;
-  }
-
-  
-  .underline{
-    background: transparent;
-  }
-  .image img{
-    border-radius: 55%;
-  }
-  .collection p {
-    font-size: 10px;
-    
-    padding: 10px;
-    text-align: center;
-  }
-  .numbers {
-    display: block;
-    padding: 30px;
-    gap: 5%;
-    justify-items: center;
-    width: 90%;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    margin: 5%;
-   
-    
-    
-  }
-  
-  .numbers .data {
-    width: 100%;
-    background: transparent;
-  }
-  
-  .numbers .data .materials-icons{
-    justify-self: center;
-    
-  }
-
-
-.content{
-  display: flex;
-  margin-left: 0%;
-  width: 100%;
-  margin-left: 1.5%;
-  
-  justify-items: center;
-
-}
-
-p{
- font-size: 8px;
-}
-.content p{
-
-  margin-top: 5%;
-  font-size: 8px;
-  width: 80%;
-
-  
-}
-
-.content img{
- width: 100%;
- border-radius: 10px;
-}
-.content h2{
-  margin-left: 10%;
-  font-size: 10px;
-
-}
-
-.learn--more{
-
-  margin-left: 10%;
-  font-size: 10px;
-  padding: 5px;
-}
-
-
-#section_2 {
-  width: 90%;
-margin-left: 5%;
-   display: block;
-    height: auto;
-  }
-  
-  .div__1{
-    width: 90%;
-    margin-left: 10%;
-    
-  }
-
-  .div__2{
-    width: 100%;
-    
-  }
-
-  .div__2 p{
-    font-size: 14px;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-  }
-  #section {
-    border-top: 0.001rem solid rgba(91, 88, 88, 0.283);
-    height: 10vh;
-    max-height: auto;
-    width: 80%;
-    margin-left: 5%;
-    cursor: pointer;
-    background: transparent;
-   
-  }
-  
-  #section_2 h2{
-    text-align: center;
-    margin-bottom: 10%;
-    background: transparent;
-  }
-  #section:last-child {
-    border-bottom: 0.001rem solid rgba(91, 88, 88, 0.283);
-  }
-  
-  .description {
-    display: flex;
-    justify-content: space-between;
-    background: transparent;
-  }
-  
-  .description h4{
-    background: transparent;
-  }
-  .expand_more{
-    background: transparent;
-  }
-  .container {
-    position: relative;
-  
-    width: 80%;
-    margin-left: 10%;
-    height: auto;
-    top: 0%;
-    background: transparent;
-   
-  }
-
-  .vid_discription {
-    margin: 15px 0px 15px 0px;
-    font-size: 12px;
-    padding: 20px;
-    border-radius: 10px;
-  }
-
-  .container h2{
-
-    font-size: 15px;
-
-   
-  }
-  
-  .container p{
-    color: white;
-    font-size: 8px;
-    position: relative;
-    background-color: black;
-    padding: 15px;
-   
-  }
-  
-  .container a{
-    text-decoration: none;
-    background: transparent;
-    color: aquamarine;
-    padding: 10px;
-  }
-  
-   .media{
-    background: transparent;
-    display: block;
-    width: 100%;
-  }
-  
-  .media  img{
-  
-    width: 100%;
-    background: transparent;
-    border-radius: 10px;
-    position: relative;
-   
-  
-  }
-
- 
-  .cookie-container {
-    z-index: 1;
-    position: fixed;
-    width: 100%;
-    height: 20%;
-    bottom: -100%;
-    z-index: 10;
-    left: 0;
-    right: 0;
-    background: white;
-    transition: 400ms;
-    box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
-  }
-
-  .cookie-container.active {
-    bottom: 0;
-  }
-  .cookie-container p {
-    color: black;
-    margin: 10px;
-    padding: 5px;
-    font-size: 12px;
-    background-color: white;
-  }
-
-  .cookie-container p a {
-    font-size: 12px;
-  }
-  .cookie-btn {
-    left: 60%;
-    right: 0;
-    margin-bottom: 80%;
-    padding: 10px;
-    position: relative;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .cookie-btn:hover {
-    text-decoration: underline;
-    font-weight: 500;
-  }
-
-  footer {
-    background: black;
-    height: 40vh;
-    margin-bottom: 0%;
-    display: block;
-    color: white;
-    width: 100%;
-    gap: 10%;
-  
-  }
-  
-  footer ul {
-    text-decoration: none;
-    background: black;
-    justify-content: center;
-    
-  }
-  footer ul li {
-    display: block;
-    text-decoration: none;
-    list-style: none;
-    padding: 10px;
-    background: black;
-    justify-content: center;
-  }
-  footer ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 12px;
-    background: black;
-    justify-content: center;
-  }
-  footer ul li a:hover {
-    opacity: 0.8;
-  }
-  
-  .copyright {
-    background: black;
-    color: white;
-    font-size: 12px;
-  }
-  .copyright a {
-    background: black;
-    color: white;
-    font-size: 12px;
-    text-decoration: none;
-  }
-  .copyright a:hover {
-    opacity: 0.8;
-  }
-  
-  .current_year {
-    background: black;
-    color: white;
-  }
-}
-@media screen and (min-width: 400px) and (max-width: 768px) {
-  * {
-    background: whitesmoke;
-  }
-
-  html {
-    scroll-behavior: smooth;
-  }
-
-  nav {
-    width: 100%;
-    position: fixed;
-
-    top: 0;
-    height: 8%;
-    margin-bottom: 1%;
-    justify-content: space-between;
-    z-index: 20;
-  }
- 
-  .mobile__header .material-icons.menu{
-    font-size: 20px;
-    font-weight: lighter;
-    margin-top: 45%;
-    display: block;
-    color: rgba(104, 177, 173, 0.342);
-  
-    
-  }
-
-  #header .material-icons.share{
-  
-    display: block;
-    color: rgba(104, 177, 173, 0.342);
-  
-    
-  }
-  nav h1 {
-    margin-top: 3%;
-   
-  }
-  nav ul {
-    display: block;
-  }
- 
-.science{
-  display: block;
-}
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 300vh;
-    background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(3px);
-    z-index: 5;
-  }
-
-  .header__title {
-    margin-top: 1%;
-  }
- 
-  
- 
- 
-  
-  .material-icons.outlined  {
-    display: flex;
-    color: rgba(0, 0, 0, 0.54);
-   
-    font-size: 12px;
-  }
-
-  .subject {
-    display: flex;
-    justify-content: space-between;
-    font-size: 12px;
-  }
-  
-  .nav__links{
-    margin-left: 0%;
-    min-height: 100vh;
-    width: 80%;
-    top: 8%;
-    background-color: whitesmoke;
-   
-    font-weight: 700;
-    border-top-left-radius: 20px;
-    position: fixed;
-    border-top: 1px solid grey;
-    
-    
-    }
-    
-
-
-    .notes{
-       margin-left: -100%;
-    }
-   
-   
-   .button{
-       margin-left: 10%;
-   }
-   .remove{
-    display: block;
-    color: black;
-    background-color: whitesmoke;
-    margin-left: 113%;
-    font-size: 35px;
-    position: absolute;
-    margin-top: -20%;
-    font-weight: lighter;
-    cursor: pointer;
-   }
-    
-    nav ul li{
-        display: block;
-        padding: 10px;
-        padding: 20px;
-        background-color: whitesmoke;
-        margin-left: 0;
-        color: black;
-        
-    }
-    
-    nav ul li img{
-       background-color: white;
-   }
-
-  
-    nav ul li:last-child{
-       display: block;
-   }
-    nav ul li a{
-       background-color: white;
-       color: black;
-    }
-    nav ul li button{
-        border: 0.5px solid black;
-        border-radius: 10px;
-        padding: 5px;
-        background-color: aquamarine;
-        color: white;
-        font-weight: 700;
-    }
-    nav ul li:hover{
-      cursor: pointer;
-     color: rgba(116, 40, 40, 0.5);
-     padding: 10px;
-    
-    }
-    
-    nav ul li:hover .sub__menu-1{
-      display: block;
-      width: 80%;
-      transition: 200ms;
-      position: fixed;
-      height: auto;
-    margin-top: 10px;
-    margin-left: 50px;
-    box-shadow: 0px 2px 3px black;
-    background: white;
-   
-    
-  
-  }
-  
-  .sub__menu-1 ul{
-      display: block;
-      margin: 10px;
-      background-color: white;
-   
-      
-  }
-  
-  .sub__menu-1 ul li{
-      display: block;
-      width: 100px;
-      height: 80px;
-      padding: 20px;
-      background: white;
-      
-      
-      text-align: left;
-      width: 100%;
-     
-  }
-
-  .sub__menu-1 ul li:first-child{
-   margin-left: 0;
-   
-  }
-  
-  .sub__menu-1 ul li a{
-      cursor: pointer;
-      background-color: white;
-      color: black;
-      display: block;
-      font-size: 12px;
-      padding: 20px;
-      
-  }
-  
-  .sub__menu-1 ul li:hover{
-   text-decoration: underline;
-  }
-  
-
-  header {
-   
-    margin-top: 18%;
-  }
-
-  .mobile--visible {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 3%;
-  }
-  .header__title {
-    display: block;
-    margin-left: 5%;
- 
-    width: 90%;
-  }
-  .header__title h4 {
-    font-size: 20px;
-    padding: 20px;
-    margin-top: 1%;
-    text-align: center;
-   
-  
-    font-family: "Roboto", "Helvetica Neue", sans-serif;
-  }
-
-  .header__title p {
-    font-size: 12px;
-    padding: 20px;
-    margin-left: 4%;
-  
-    
-  }
-  
- 
-  .first--media img{
-    width: 100%;
-  }
-  .image{
-    margin-left: 12%;
-    display: flex;
-    justify-content:space-between;
-   background-color: whitesmoke;
-    
-  }
-
-  .get--started{
-    display: block;
-    background: rgba(104, 177, 173, 0.342);
-    padding: 12px;
-    color: white;
-    border-radius: 30px;
-    border: none;
-    font-size: 14px;
-   
-  }
-
-  .material-symbols-outlined {
-    font-size: 35px;
-    background: whitesmoke;
-  
-  }
-
-  .play_circle{
-    color: rgba(104, 177, 173, 0.342);
-   
-  }
- 
-  .image .button{
-    background-color: whitesmoke;
-  }
-
-  .material-icons .shapes{
-    color: rgba(104, 177, 173, 0.342);
-  }
-  ul li{
-    list-style: none;
-    font-size: 10px;
-    background: whitesmoke;
-  }
-  
-  .meet_disciplina{
-    position: fixed;
-    top: 0%;
-    bottom: 0;
-    height: 96vh;
-    width: 100%;
-   
-    z-index: 20;
-   
-  }
-
-  .meet_disciplina video{
-    height: 80vh;
-    margin-top: 0vh;
-    width: 100%;
-    bottom: 0;
-
-  }
-  .meet_disciplina .goback{
-    font-size: 30px;
-    color: black;
-    margin-top: 8vh;
-    margin-left: 90%;
-  }
-  
-  .collection p {
-    font-size: 12px;
-    margin-top: 4%;
-    
-    padding: 10px;
-    text-align: center;
-  }
-  .numbers {
-    display: block;
-    padding: 30px;
-    gap: 5%;
-    justify-items: center;
-    width: 90%;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    margin-left: 10%;
-    
-    
-  }
-  
-  .numbers .data {
-    width: 100%;
-  }
-  
-  .numbers .data.material-icons{
-    font-size: 25px;
-    color: red;
-  }
-  /* .numbers .data .materials-icons{
-    justify-self: center;
-  } */
-/* #section__1{
-  margin-top: 30%;
- 
-} */
-
-
-
-
-.content{
-  display: flex;
-
-  margin-left: 1.5%;
-  width: 100%;
-  justify-items: center;
-
-}
-
-p{
- font-size: 8px;
-}
-.content p{
-
-  margin-top: 5%;
-  font-size: 8px;
-  width: 80%;
-
-  
-}
-
-.content img{
- width: 100%;
- border-radius: 10px;
-}
-#section_2 {
-  width: 90%;
-margin-left: 5%;
-   display: block;
-  height: auto;
-}
-
-.content h2{
-  margin-left: 10%;
-  font-size: 10px;
-
-}
-
-.learn--more{
-
-  margin-left: 10%;
-  font-size: 10px;
-  padding: 5px;
-}
-
-.div__1{
-  width: 90%;
-  margin-left: 10%;
-  
-}
-
-.div__2{
-  width: 100%;
-  
-}
-
-.div__2 p{
-  font-size: 14px;
-  text-align: center;
-  padding: 10px;
-  margin: 10px;
-}
-
-.div__2 input{
-  border: 1px solid rgba(0, 0, 0, 0.3);;
-}
-
-.div__2 textarea{
-  border: 1px solid rgba(0, 0, 0, 0.3);;
-}
-#section {
-  border-top: 0.001rem solid rgba(91, 88, 88, 0.283);
-  height: 10vh;
-  max-height: auto;
-  width: 80%;
-  margin-left: 5%;
-  cursor: pointer;
-  background: transparent;
- 
-}
-
-#section_2 h2{
-  text-align: center;
-  margin-bottom: 10%;
-  background: transparent;
-}
-#section_2:last-child {
-  border-bottom: 0.001rem solid rgba(91, 88, 88, 0.283);
-
-}
-
-.description {
-  display: flex;
-  justify-content: space-between;
-  background: transparent;
-}
-
-.description h4{
-  background: transparent;
-}
-.expand_more{
-  background: transparent;
-}
-.expand_less{
-  background: transparent;
-}
-.container {
-  position: relative;
-
-  width: 80%;
-  margin-left: 10%;
-  height: auto;
-  top: 0%;
-  background: transparent;
- 
-}
-
-.vid_discription {
-  margin: 15px 0px 15px 0px;
-  font-size: 12px;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-
-.container h2{
-
   font-size: 15px;
-
- 
+  margin: 10px;
 }
 
-.container p{
+.quiz p sup {
+  background: transparent;
   color: white;
-  font-size: 8px;
-  position: relative;
-  background-color: black;
-  padding: 15px;
- 
+  font-size: 12px;
+}
+.quiz input {
+  width: 80%;
+  margin-bottom: 1%;
+
+  height: 5%;
+  font-size: 20px;
+
+  left: 10%;
+  font-size: 14px;
 }
 
-.container a{
+.answer {
   text-decoration: none;
-  background: transparent;
-  color: aquamarine;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
   padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
 }
 
-.media{
-  background: transparent;
-  display: block;
-  width: 100%;
+.answer:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
 }
 
-.media img{
-
-  width: 100%;
+.chances {
   background: transparent;
+  color: white;
+}
+
+.getout {
+  background: transparent;
+  color: white;
+  font-size: 25px;
+  margin-left: 96%;
+  cursor: pointer;
+}
+.sup {
+  background: transparent;
+  color: white;
+}
+.next {
+  background-color: white;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.quiz2 {
+  height: auto;
+  background-color: black;
   border-radius: 10px;
-  position: relative;
-
-
-}
-  .cookie-container {
-    z-index: 1;
-    position: fixed;
-    width: 100%;
-    height: 20%;
-    bottom: -100%;
-    z-index: 10;
-    left: 0;
-    right: 0;
-    background: white;
-    transition: 400ms;
-    box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
-  }
-
-  .cookie-container.active {
-    bottom: 0;
-  }
-  .cookie-container p {
-    color: black;
-    margin: 10px;
-    padding: 5px;
-    font-size: 12px;
-    background-color: white;
-  }
-
-  .cookie-container p a {
-    font-size: 12px;
-  }
-  .cookie-btn {
-    left: 60%;
-    right: 0;
-    margin-bottom: 80%;
-    padding: 10px;
-    position: relative;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .cookie-btn:hover {
-    text-decoration: underline;
-    font-weight: 500;
-  }
-
-  footer {
-    background: black;
-    height: 40vh;
-    margin-bottom: 0%;
-    display: block;
-    color: white;
-    width: 100%;
-    gap: 10%;
-   
-  }
-  
-  footer ul {
-    text-decoration: none;
-    background: black;
-    justify-content: center;
-    
-  }
-  footer ul li {
-    display: block;
-    text-decoration: none;
-    list-style: none;
-    padding: 10px;
-    background: black;
-    justify-content: center;
-  }
-  footer ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 12px;
-    background: black;
-    justify-content: center;
-  }
-  footer ul li a:hover {
-    opacity: 0.8;
-  }
-  
-  .copyright {
-    background: black;
-    color: white;
-    font-size: 12px;
-  }
-  .copyright a {
-    background: black;
-    color: white;
-    font-size: 12px;
-    text-decoration: none;
-  }
-  .copyright a:hover {
-    opacity: 0.8;
-  }
-  
-  .current_year {
-    background: black;
-    color: white;
-  }
-
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 10;
 }
 
+.quiz2 p {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.quiz2 p sup {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+.quiz2 input {
+  width: 80%;
+  margin-bottom: 1%;
+
+  height: 5%;
+  font-size: 20px;
+  border: none;
+  left: 10%;
+  font-size: 14px;
+}
+
+.answer2 {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.answer2:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+}
+
+
+
+.chances2 {
+  background: transparent;
+  color: white;
+}
+
+.next2 {
+  background-color: white;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.quiz3 {
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 10;
+}
+
+.quiz3 p {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.quiz3 p sup {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+.quiz3 input {
+  width: 80%;
+  margin-bottom: 1%;
+
+  height: 5%;
+  font-size: 20px;
+  border: none;
+  left: 10%;
+  font-size: 14px;
+}
+
+.answer3 {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.answer3:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+}
+
+
+
+.chances3 {
+  background: transparent;
+  color: white;
+}
+
+.next3 {
+  background-color: white;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.quiz4 {
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 10;
+}
+
+.quiz4 p {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.quiz4 p sup {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+.quiz4 input {
+  width: 80%;
+  margin-bottom: 1%;
+  height: 5%;
+  font-size: 20px;
+  border: none;
+  left: 10%;
+  font-size: 14px;
+}
+
+.answer4 {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.answer4:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+}
+
+
+.chances4 {
+  background: transparent;
+  color: white;
+}
+
+.next4 {
+  background-color: white;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.quiz5 {
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  min-height: 80vh;
+  max-height: 90vh;
+  z-index: 10;
+}
+
+.quiz5 p {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.quiz5 p sup {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+.quiz5 input {
+  width: 80%;
+  margin-bottom: 1%;
+
+  height: 5%;
+  font-size: 20px;
+  border: none;
+  left: 10%;
+  font-size: 14px;
+}
+
+
+.answer5 {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.answer5:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+}
+
+
+
+.chances5 {
+  background: transparent;
+  color: white;
+}
+
+.next5 {
+  background: color;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.quiz6 {
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 10;
+}
+
+.quiz6 p {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.quiz6 p sup {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+.quiz6 input {
+  width: 80%;
+  margin-bottom: 1%;
+
+  height: 5%;
+  font-size: 20px;
+  border: none;
+  left: 10%;
+  font-size: 14px;
+}
+
+.answer6 {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.answer6:hover {
+  font-weight: bolder;
+  background: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+}
+
+
+
+.chances6 {
+  background: transparent;
+  color: white;
+}
+
+.next6 {
+  background-color: white;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.quiz7 {
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 10;
+}
+
+.quiz7 p {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.quiz7 p sup {
+  background-color: transparent;
+  color: white;
+  font-size: 12px;
+}
+.quiz7 input {
+  width: 80%;
+  margin-bottom: 1%;
+
+  height: 5%;
+  font-size: 20px;
+  border: none;
+  left: 10%;
+  font-size: 14px;
+}
+
+.answer7 {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.answer7:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+}
+
+
+
+.chances7 {
+  background-color: transparent;
+  color: white;
+}
+
+.next7 {
+  background-color: white;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.quiz8 {
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 10;
+}
+
+.quiz8 p {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.quiz8 p sup {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+.quiz8 input {
+  width: 80%;
+  margin-bottom: 1%;
+
+  height: 5%;
+  font-size: 20px;
+  border: none;
+  left: 10%;
+  font-size: 14px;
+}
+
+.answer8 {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.answer8:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+}
+
+
+.chances8 {
+  background: transparent;
+  color: white;
+}
+
+.next8 {
+  background-color: white;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.quiz9 {
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 10;
+}
+
+.quiz9 p {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.quiz9 p sup {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+.quiz9 input {
+  width: 80%;
+  margin-bottom: 1%;
+
+  height: 5%;
+  font-size: 20px;
+  border: none;
+  left: 10%;
+  font-size: 14px;
+}
+
+.answer9 {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.answer9:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+}
+
+.chances9 {
+  background: transparent;
+  color: white;
+}
+
+.next9 {
+  background-color: white;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.quiz10 {
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 10;
+}
+
+.quiz10 p {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.quiz10 p sup {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+.quiz10 input {
+  width: 80%;
+  margin-bottom: 1%;
+
+  height: 5%;
+  font-size: 20px;
+  border: none;
+  left: 10%;
+  font-size: 14px;
+}
+
+.answer10 {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.answer10:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+}
+
+
+.chances10 {
+  background: transparent;
+  color: white;
+}
+
+.next10 {
+  background-color: white;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.quiz11 {
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 10;
+}
+
+.quiz11 p {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.quiz11 p sup {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+.quiz11 input {
+  width: 80%;
+  margin-bottom: 1%;
+
+  height: 5%;
+  font-size: 20px;
+  border: none;
+  left: 10%;
+  font-size: 14px;
+}
+
+.answer11 {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.answer11:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+}
+
+
+
+.chances11 {
+  background: transparent;
+  color: white;
+}
+
+.next11 {
+  background-color: white;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.quiz12 {
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 10;
+}
+
+.quiz12 p {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.quiz12 p sup {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+.quiz12 input {
+  width: 80%;
+  margin-bottom: 1%;
+
+  height: 5%;
+  font-size: 20px;
+  border: none;
+  left: 10%;
+  font-size: 14px;
+}
+
+.answer12 {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.answer12:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+}
+
+.chances12 {
+  background-color: transparent;
+  color: white;
+}
+
+.next12 {
+  background-color: white;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.quiz13 {
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 10;
+}
+
+.quiz13 p {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.quiz13 p sup {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+.quiz13 input {
+  width: 80%;
+  margin-bottom: 1%;
+
+  height: 5%;
+  font-size: 20px;
+  border: none;
+  left: 10%;
+  font-size: 14px;
+}
+
+.answer13 {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.answer13:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+}
+
+
+.chances13 {
+  background-color: transparent;
+  color: white;
+}
+
+.next13 {
+  background-color: white;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.quiz14 {
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 10;
+}
+
+.quiz14 p {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.quiz14 p sup {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+.quiz14 input {
+  width: 80%;
+  margin-bottom: 1%;
+
+  height: 5%;
+  font-size: 20px;
+  border: none;
+  left: 10%;
+  font-size: 14px;
+}
+
+.answer14 {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.answer14:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+}
+
+
+
+.chances14 {
+  background: transparent;
+  color: white;
+}
+
+.next14 {
+  background-color: white;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.quiz15 {
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 10;
+}
+
+.quiz15 p {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.quiz15 p sup {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+.quiz15 input {
+  width: 80%;
+  margin-bottom: 1%;
+
+  height: 5%;
+  font-size: 20px;
+  border: none;
+  left: 10%;
+  font-size: 14px;
+}
+
+.answer15 {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.answer15:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+}
+
+
+.chances15 {
+  background: transparent;
+  color: white;
+}
+
+.next15 {
+  background-color: white;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.quiz16 {
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 10;
+}
+
+.quiz16 p {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.quiz16 p sup {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+.quiz16 input {
+  width: 80%;
+  margin-bottom: 1%;
+
+  height: 5%;
+  font-size: 20px;
+  border: none;
+  left: 10%;
+  font-size: 14px;
+}
+
+.answer16 {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.answer16:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+}
+
+
+.chances16 {
+  background: transparent;
+  color: white;
+}
+
+.next16 {
+  background-color: white;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.quiz17  {
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 10;
+}
+
+.quiz17 p {
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.quiz17 p sup {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+.quiz17 input {
+  width: 80%;
+  margin-bottom: 1%;
+
+  height: 5%;
+  font-size: 20px;
+  border: none;
+  left: 10%;
+  font-size: 14px;
+}
+
+.answer17 {
+  text-decoration: none;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: aqua;
+  font-weight: 700;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  cursor: pointer;
+}
+
+.answer17:hover {
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 20px;
+}
+
+
+.chances17 {
+  background: transparent;
+  color: white;
+}
+
+.next17 {
+  background-color: white;
+  padding: 10px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+.interger {
+  background-color: transparent;
+}
+.interger1 {
+  background-color: transparent;
+}
+
+.interger2 {
+  background-color:transparent;
+}
+.interger3 {
+  background-color: transparent;
+}
+
+.interger4 {
+  background-color: transparent;
+}
+.interger5 {
+  background-color: transparent;
+}
+
+.interger6 {
+  background-color: transparent;
+}
+.interger7 {
+  background-color: transparent;
+}
+
+.interger8 {
+  background-color: transparent;
+}
+
+.interger9 {
+  background-color:transparent;
+}
+
+.interger10 {
+  background-color:transparent;
+}
+
+.interger11 {
+  background-color:transparent;
+}
+.interger12 {
+  background-color:transparent;
+}
+.interger13 {
+  background-color:transparent;
+}
+.interger14 {
+  background-color:transparent;
+}
+.interger35 {
+  background-color: transparent;
+}
+.interger36 {
+  background-color: transparent;
+}
+.interger15 {
+  background-color:transparent;
+}
+.interger16 {
+  background-color: transparent;
+}
+.interger17 {
+  background-color: transparent;
+}
+.interger18 {
+  background-color: transparent;
+}
+
+.interger19 {
+  background-color:transparent;
+}
+
+.interger20 {
+  background-color: transparent;
+}
+.interger21 {
+  background-color:transparent;
+}
+.interger22 {
+  background-color: transparent;
+}
+.interger23 {
+  background-color: transparent
+}
+
+.interger24 {
+  background-color: transparent;
+}
+.interger25 {
+  background-color: transparent;
+}
+.interger26 {
+  background-color:transparent;
+}
+
+.interger27 {
+  background-color: transparent;
+}
+
+.interger28 {
+  background-color: transparent;
+}
+.interger29 {
+  background-color:transparent;
+}
+.interger30 {
+  background-color: transparent
+}
+.interger31 {
+  background-color: transparent;
+}
+
+.interger32 {
+  background-color: transparent
+}
+.interger33 {
+  background-color: transparent;
+}
+.interger34 {
+  background-color: transparent;
+}
+.interger35 {
+  background-color: transparent;
+}
+.interger36 {
+  background-color: transparent;
+}
+.interger37 {
+  background-color: transparent;
+}
+
+.interger38 {
+  background-color: transparent;
+}
+
+.random {
+  background-color:transparent;
+}
+
+.random2 {
+  background-color:transparent;
+}
+.random3 {
+  background-color:transparent;
+}
+.random4 {
+  background-color:transparent;
+}
+
+i{
+  background: transparent;
+}
+.grades {
+  height: auto;
+
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 9;
+  border: 1px solid black;
+}
+
+.grades ol li {
+  padding: 20px;
+
+  margin-left: 10%;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 10%;
+}
+
+.buttons button {
+  background: black;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+
+  padding: 5px;
+  margin: 5px;
+}
+
+.gotobtn a {
+  background: black;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.feedback_message {
+  font-size: 12px;
+  padding: 10px 0px 10px 10px;
+}
+
+.grades1 {
+  height: auto;
+
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 9;
+  border: 1px solid black;
+}
+
+.grades1 ol li {
+  padding: 20px;
+
+  margin-left: 10%;
+}
+
+.feedback_message1 {
+  font-size: 12px;
+  padding: 10px 0px 10px 10px;
+}
+
+.grades2 {
+  height: auto;
+
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 9;
+  border: 1px solid black;
+}
+
+.grades2 ol li {
+  padding: 20px;
+
+  margin-left: 10%;
+}
+
+.feedback_message2 {
+  font-size: 12px;
+  padding: 10px 0px 10px 10px;
+}
+
+.grades3 {
+  height: auto;
+
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 9;
+  border: 1px solid black;
+}
+
+.grades3 ol li {
+  padding: 20px;
+
+  margin-left: 10%;
+}
+
+.feedback_message3 {
+  font-size: 12px;
+  padding: 10px 0px 10px 10px;
+}
+
+.grades4 {
+  height: auto;
+
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  left: 20%;
+  height: 80vh;
+  z-index: 9;
+  border: 1px solid black;
+}
+
+.grades4 ol li {
+  padding: 20px;
+
+  margin-left: 10%;
+}
+
+.feedback_message4 {
+  font-size: 12px;
+  padding: 10px 0px 10px 10px;
+}
+
+.quiz6 .input6a {
+width: 30%;
+border: 1px solid black;
+}
+
+.quiz6 .input6b {
+  width: 30%;
+  border: 1px solid black;
+  }
+  .quiz6 .input6c {
+    width: 30%;
+    border: 1px solid black;
+    }
+    .quiz6 .input6d {
+      width: 30%;
+      border: 1px solid black;
+      }
+      .quiz6 .input6e {
+        width: 30%;
+        border: 1px solid black;
+        }
+        .quiz6 .input6f {
+          width: 30%;
+          border: 1px solid black;
+          }
+          
+.socialmedia p a img{
+width: 20px;
+}
+          @media screen and (min-width: 300px) and (max-width: 480px) {
+
+            .diagram img{
+              width: 100%;
+            }
+            .quiz {
+              height: auto;
+              background-color: black;
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 10%;
+              width: 80%;
+              left: 10%;
+              min-height: 40vh;
+              z-index: 10;
+              border-radius: 10px;
+            }
+            
+             .quiz input{
+             
+              border-radius: 0;
+              height: 5%;
+              font-size: 20px;
+          }
+
+          .quiz p {
+            background: transparent;
+            color: white;
+            font-size: 12px;
+            margin: 10px;
+          }
+          
+            .quiz2 {
+              height: auto;
+              background-color: black;
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 10%;
+              width: 80%;
+              left: 10%;
+              min-height: 40vh;
+              z-index: 10;
+            }
+            
+            .quiz2 input{
+             
+              border-radius: 0;
+              height: 5%;
+              font-size: 20px;
+          }
+
+          .quiz2 p {
+            background: transparent;
+            color: white;
+            font-size: 12px;
+            margin: 10px;
+          }
+            .quiz3 {
+              height: auto;
+              background-color: black;
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 10%;
+              width: 80%;
+              left: 10%;
+              min-height: 40vh;
+              z-index: 10;
+            }
+            
+            .quiz3 input{
+             
+              border-radius: 0;
+              height: 5%;
+              font-size: 20px;
+          }
+          .quiz3 p {
+            background: transparent;
+            color: white;
+            font-size: 12px;
+            margin: 10px;
+          }
+            .quiz4 {
+              height: auto;
+              background-color: black;
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 10%;
+              width: 80%;
+              left: 10%;
+              min-height: 40vh;
+              z-index: 10;
+            }
+            
+            .quiz4 input{
+             
+              border-radius: 0;
+              height: 5%;
+              font-size: 20px;
+          }
+
+          .quiz4 p {
+            background: transparent;
+            color: white;
+            font-size: 12px;
+            margin: 10px;
+          }
+            .quiz5 {
+              height: auto;
+              background-color: black;
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 5%;
+              width: 80%;
+              left: 10%;
+              min-height: 40vh;
+              z-index: 10;
+            }
+            .quiz5 input{
+             
+              border-radius: 0;
+              height: 5%;
+              font-size: 20px;
+          }
+          .quiz5 p {
+            background: transparent;
+            color: white;
+            font-size: 12px;
+            margin: 10px;
+          }
+            .quiz6 {
+              height: auto;
+              background-color: black;
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 10%;
+              width: 80%;
+              left: 10%;
+              min-height: 40vh;
+              z-index: 10;
+            }
+            
+            .quiz6 input{
+             
+              border-radius: 0;
+              height: 5%;
+              font-size: 20px;
+          }
+
+          .quiz6 p {
+            background: transparent;
+            color: white;
+            font-size: 12px;
+            margin: 10px;
+          }
+            .quiz7 {
+              height: auto;
+              background-color: black;
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 10%;
+              width: 80%;
+              left: 10%;
+              min-height: 40vh;
+              z-index: 10;
+            }
+            
+            .quiz7 input{
+             
+              border-radius: 0;
+              height: 5%;
+              font-size: 20px;
+          }
+
+          .quiz7 p {
+            background: transparent;
+            color: white;
+            font-size: 12px;
+            margin: 10px;
+          }
+            .quiz8 {
+              height: auto;
+              background-color: black;
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 10%;
+              width: 80%;
+              left: 10%;
+              min-height: 40vh;
+              z-index: 10;
+            }
+            .quiz8 input{
+             
+              border-radius: 0;
+              height: 5%;
+              font-size: 20px;
+          }
+          .quiz8 p {
+            background: transparent;
+            color: white;
+            font-size: 12px;
+            margin: 10px;
+          }
+            
+            .quiz9 {
+              height: auto;
+              background-color: black;
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 10%;
+              width: 80%;
+              left: 10%;
+              min-height: 40vh;
+              z-index: 10;
+            }
+            .quiz9 input{
+             
+              border-radius: 0;
+              height: 5%;
+              font-size: 20px;
+          }
+          .quiz9 p {
+            background: transparent;
+            color: white;
+            font-size: 12px;
+            margin: 10px;
+          }
+            .quiz10 {
+              height: auto;
+              background-color: black;
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 5%;
+              width: 80%;
+              left: 10%;
+              min-height: 40vh;
+              z-index: 10;
+            }
+            .quiz10 input{
+             
+              border-radius: 0;
+              height: 5%;
+              font-size: 20px;
+          }
+          .quiz10 p {
+            background: transparent;
+            color: white;
+            font-size: 12px;
+            margin: 10px;
+          }
+            .quiz11 {
+              height: auto;
+              background-color: black;
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 5%;
+              width: 80%;
+              left: 10%;
+              min-height: 40vh;
+              z-index: 10;
+            }
+            .quiz11 input{
+             
+              border-radius: 0;
+              height: 5%;
+              font-size: 20px;
+          }
+          .quiz11 p {
+            background: transparent;
+            color: white;
+            font-size: 12px;
+            margin: 10px;
+          }
+            .quiz12 {
+              height: auto;
+              background-color: black;
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 5%;
+              width: 80%;
+              left: 10%;
+              min-height: 40vh;
+              z-index: 10;
+            }
+            .quiz12 input{
+             
+              border-radius: 0;
+              height: 5%;
+              font-size: 12px;
+          }
+          .quiz12 p {
+            background: transparent;
+            color: white;
+            font-size: 12px;
+            margin: 10px;
+          }
+            .quiz13 {
+              height: auto;
+              background-color: black;
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 10%;
+              width: 80%;
+              left: 10%;
+              min-height: 40vh;
+              z-index: 10;
+            }
+            .quiz13 input{
+             
+              border-radius: 0;
+              height: 5%;
+              font-size: 12px;
+          }
+
+          .quiz13 p {
+            background: transparent;
+            color: white;
+            font-size: 12px;
+            margin: 10px;
+          }
+            .quiz14 {
+              height: auto;
+              background-color: black;
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 10%;
+              width: 80%;
+              left: 10%;
+              min-height: 40vh;
+              z-index: 10;
+            }
+            
+            .quiz14 input{
+             
+              border-radius: 0;
+              height: 5%;
+              font-size: 12px;
+          }
+          .quiz14 p {
+            background: transparent;
+            color: white;
+            font-size: 12px;
+            margin: 10px;
+          }
+            .quiz15 {
+              height: auto;
+              background-color: black;
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 10%;
+              width: 80%;
+              left: 10%;
+              min-height: 40vh;
+              z-index: 10;
+            }
+            .quiz15 input{
+             
+              border-radius: 0;
+              height: 5%;
+              font-size: 12px;
+          }
+            
+          .quiz15 p {
+            background: transparent;
+            color: white;
+            font-size: 12px;
+            margin: 10px;
+          }
+          .quiz16 {
+            height: auto;
+            background-color: black;
+            border-radius: 10px;
+            padding: 10px;
+            position: fixed;
+            top: 10%;
+            width: 80%;
+            left: 10%;
+            min-height: 40vh;
+            z-index: 10;
+          }
+          .quiz16 input{
+           
+            border-radius: 0;
+            height: 5%;
+            font-size: 12px;
+        }
+
+        .quiz16 p {
+          background: transparent;
+          color: white;
+          font-size: 12px;
+          margin: 10px;
+        }
+        .quiz17 {
+          height: auto;
+          background-color: black;
+          border-radius: 10px;
+          padding: 10px;
+          position: fixed;
+          top: 10%;
+          width: 80%;
+          left: 10%;
+          min-height: 40vh;
+          z-index: 10;
+        }
+        .quiz17 input{
+         
+          border-radius: 0;
+          height: 5%;
+          font-size: 12px;
+      }
+      
+      .quiz17 p {
+        background: transparent;
+        color: white;
+        font-size: 12px;
+        margin: 10px;
+      }
+            .grades {
+              height: auto;
+            
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 10%;
+              width: 80%;
+              left: 10%;
+              height: 80vh;
+              z-index: 9;
+              border: 1px solid black;
+            }
+            
+          
+            .grades ol li {
+              padding: 20px;
+            font-size: 10px;
+              margin-left: 10%;
+            }  
+            .grades1 {
+              height: auto;
+            
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 10%;
+              width: 80%;
+              left: 10%;
+              height: 80vh;
+              z-index: 9;
+              border: 1px solid black;
+            }
+            
+            .grades1 ol li {
+              padding: 20px;
+            font-size: 10px;
+              margin-left: 10%;
+            }
+            
+            .feedback_message1 {
+              font-size: 10px;
+              padding: 10px 0px 10px 10px;
+            }
+            
+            .grades2 {
+              height: auto;
+            
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 5%;
+              width: 80%;
+              left: 10%;
+              height: 80vh;
+              z-index: 9;
+              border: 1px solid black;
+            }
+            
+            
+            .grades2 ol li {
+              padding: 20px;
+            font-size: 10px;
+              margin-left: 10%;
+            }
+            
+            .grades3 {
+              height: auto;
+            
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 10%;
+              width: 80%;
+              left: 10%;
+              height: 80vh;
+              z-index: 9;
+              border: 1px solid black;
+            }
+            
+           
+            .grades3 ol li {
+              padding: 20px;
+            font-size: 10px;
+              margin-left: 10%;
+            }
+            
+            .grades4 {
+              height: auto;
+            
+              border-radius: 10px;
+              padding: 10px;
+              position: fixed;
+              top: 10%;
+              width: 80%;
+              left: 10%;
+              height: 80vh;
+              z-index: 9;
+              border: 1px solid black;
+            }
+            
+            
+            .grades4 ol li {
+              padding: 20px;
+            font-size: 10px;
+              margin-left: 10%;
+            }
+
+          }
+
+        
+         
