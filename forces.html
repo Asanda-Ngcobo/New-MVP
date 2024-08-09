@@ -773,7 +773,7 @@
       </div>
     </p>
     
-    <input type="" class="input3" placeholder="E.g., 12N"><b class="check hide">✔️</b><b class="cross hide">❌</b>
+    <input type="" class="input3" placeholder="E.g., 12.89N"><b class="check hide">✔️</b><b class="cross hide">❌</b>
     
     <button class="answer3">Check your answer</button>
     
@@ -812,7 +812,7 @@
                 The magnitude of the horizontal component of B.
                   </p>
                   
-              <input type="" class="input5" placeholder="E.g., 43.67N"><b class="check hide">✔️</b><b class="cross hide">❌</b>
+              <input type="" class="input5" placeholder="E.g., 43N"><b class="check hide">✔️</b><b class="cross hide">❌</b>
     
              <button class="answer5">Check your answer</button>
              
@@ -829,7 +829,7 @@
               <p class="question6">Now, calculate the resultant (net) force. Choosing left as your negative direction.
                   </p>
                   
-              <input type="" class="input6" placeholder="Enter your answer here"><b class="check hide">✔️</b><b class="cross hide">❌</b>
+              <input type="" class="input6" placeholder="E.g., 24.67N"><b class="check hide">✔️</b><b class="cross hide">❌</b>
     
              <button class="answer6">Check your answer</button>
              
@@ -1767,10 +1767,13 @@ next5.addEventListener("click", () => {
   console.log(FyResultant);
    magnitude = (Math.sqrt(Number(FxResultant**2) + FyResultant**2)).toFixed(2);
    if(collection[0] > collection[3]){
-    magnitude = magnitude * -1
+    answer = `-${magnitude}N`;
    }
  
-answer = `${magnitude}N`;
+else{
+  answer = `${magnitude}N`;
+}
+
 console.log(answer);
 });
 
@@ -1825,7 +1828,7 @@ submit6.addEventListener("click", () => {
     else{
       displayMessage6(`The correct answer is ${answer}. First since, the forces are acting in opposite direction, we need to make one force negative and the other positive to represent their direction.
        Therefore, we going to make B negative. Now, we can calculate the Resultant Fx and Fy.
-       Resultant Fx = Afx + Bfx, Resultant Fx = ${collection[0]} + (-${collection[3]}), Resultant fx = ${collection[0]} -${collection[3]},
+       Resultant Fx = Afx + Bfx, Resultant Fx = -${collection[0]} + (${collection[3]}), Resultant fx = ${collection[0]} -${collection[3]},
        Resultant Fx = ${FxResultant}. Resultant Fy = ${collection[1]}, since Bfy = 0;.
        Now, we can calculate the net force using pythagorean, Net Force = Squareroot((Resultant Fx)^2 + (Resultant Fy)^2), net force = Squareroot(${FxResultant})^2 + (${FyResultant})^2, Net force = ${magnitude}N.
         Since Fx of A is greater than FxB, the net force direction is to the left, hence net force = ${answer}.`);
