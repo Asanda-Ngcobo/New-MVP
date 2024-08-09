@@ -437,7 +437,7 @@
       <div class="quiz13 notshown">
         <div class="getout">&times;</div>
       
-        <p class="question13">  If the mass of a VW Golf 8 is <b class="interger6">0</b>kg, what will the force required to speed up a Golf to <b class="interger2">0</b>m/s<sup>2</sup>? <br>
+        <p class="question13">  If the mass of a VW Golf 8 is <b class="interger6">0</b>kg, what will the force required to speed up to <b class="interger2">0</b>m/s<sup>2</sup>? <br>
        
             </p>
             
@@ -473,8 +473,8 @@
       <div class="quiz15 notshown">
         <div class="getout">&times;</div>
       
-        <p class="question15"> An Object is loaded into the Wheelbarrow, and now the mass of the barrow is<b class="interger">0</b>kg, what would be the new acceleration if <b class="interger3">0</b>N was applied? <br>
-          
+        <p class="question15"> An Object is loaded into the Wheelbarrow, and now the mass of the barrow is <b class="interger">0</b>kg, what would be the new acceleration if <b class="interger3">0</b>N was applied? <br>
+          Your into two decimal places.
             </p>
             
         <input type="" class="input15" placeholder="E.g., 2.67m/s^2"><b class="check hide">✔️</b><b class="cross hide">❌</b>
@@ -1894,19 +1894,7 @@ else{
 
 });
 
-    const finish = document.querySelectorAll('.finish');
-for(let i = 0; i < finish.length; i++){
-finish[i].addEventListener("click", () => {
- grades.classList.add("hidden");
-   grades1.classList.add("hidden");
-  //   grades2.classList.add("hidden");
-  //      grades3.classList.add("hidden");
-  //      grades4.classList.add("hidden");
-   overlay.classList.add("hide");
-  location.reload();
-  })
-  
-}
+
 
 const test2 = document.querySelector('.test2');
 
@@ -3057,7 +3045,19 @@ else{
 // }
 //   });
 
-
+const finish = document.querySelectorAll('.finish');
+for(let i = 0; i < finish.length; i++){
+finish[i].addEventListener("click", () => {
+ grades.classList.add("hidden");
+   grades1.classList.add("hidden");
+    grades2.classList.add("hidden");
+       grades3.classList.add("hidden");
+  //      grades4.classList.add("hidden");
+   overlay.classList.add("hide");
+  location.reload();
+  })
+  
+}
     </script>
   </body>
 </html>
