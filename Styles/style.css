@@ -288,13 +288,13 @@ ul li{
 }
 
 /* features */
-.section__1{
+#section__1{
   width: 100%;
-  background: white;
+  background: whitesmoke;
   height: auto;
-  border-bottom: 1px solid black;
+ 
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
  
 
 }
@@ -308,6 +308,7 @@ justify-content: space-between;
   margin-top: 1%;
   border-radius: 10px;
   height: 80%;
+  background: transparent;
 }
 
 
@@ -318,7 +319,7 @@ justify-content: space-between;
   width: 50%;
   margin: 10%;
   color: gray;
- 
+  background: transparent;
   
 }
 
@@ -330,7 +331,7 @@ justify-content: space-between;
   color: rgb(127, 182, 255);
   text-decoration: none;
   padding: 10px;
- 
+  background: transparent;
   
 }
 
@@ -343,16 +344,19 @@ justify-content: space-between;
 .content h2{
   margin-left: 10%;
   font-size: 50px;
-  color: black
+  color: black;
+  background: transparent;
 }
 .image{
   width: 50%;
+  background: transparent;
 }
 .image .tutorials{
   
     width: 100%;
     border-top-right-radius: 200px;
     border-bottom-right-radius: 200px;
+    background: transparent;
   }
 
   .image .quiz{
@@ -360,7 +364,11 @@ justify-content: space-between;
     width: 100%;
     border-top-left-radius: 200px;
     border-bottom-left-radius: 200px;
+    background: transparent;
   }
+.text{
+  background: transparent;
+}
 
 .links h1{
   text-align: center;
@@ -536,6 +544,7 @@ h3{
   width: 100%;
   background: black;
   text-align: center;
+  margin-top: 5%;
 }
 
 
