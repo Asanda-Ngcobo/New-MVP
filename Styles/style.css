@@ -15,7 +15,7 @@ html {
 }
 body{
   width: 100%;
-  background: whitesmoke;
+  background: white;
 }
 
 nav {
@@ -369,7 +369,7 @@ justify-content: space-between;
 /* subject */
 #subject{
   background: white;
-  display: block;
+  display: flex;
   justify-content: space-between;
   width: 80%;
   margin-left: 10%;
@@ -765,7 +765,7 @@ footer ul li a:hover {
     display: flex;
     color: rgba(0, 0, 0, 0.54);
    
-    font-size: 12px;
+    font-size: 25px;
   }
 
   .subject {
@@ -777,9 +777,9 @@ footer ul li a:hover {
   .nav__links{
     margin-left: 0%;
     min-height: 100vh;
-    width: 80%;
+    width: 100%;
     top: 8%;
-    background-color: whitesmoke;
+    background-color: white;
    
     font-weight: 700;
     border-top-left-radius: 20px;
@@ -802,20 +802,20 @@ footer ul li a:hover {
    .remove{
     display: block;
     color: black;
-    background-color: whitesmoke;
-    margin-left: 113%;
+    background-color: white;
+    margin-left: 90%;
     font-size: 35px;
     position: absolute;
-    margin-top: -20%;
+    margin-top: -15%;
     font-weight: lighter;
     cursor: pointer;
    }
     
     nav ul li{
         display: block;
-        padding: 10px;
+      font-size: 25px;
         padding: 20px;
-        background-color: whitesmoke;
+        background-color: white;
         margin-left: 0;
         color: black;
         
@@ -1308,6 +1308,7 @@ border-radius: 10px;
 
  
 @media screen and (min-width: 400px) and (max-width: 768px) {
+  
   * {
     background: white;
   }
@@ -1387,7 +1388,7 @@ border-radius: 10px;
     display: flex;
     color: rgba(0, 0, 0, 0.54);
    
-    font-size: 12px;
+    font-size: 25px;
   }
 
   .subject {
@@ -1399,9 +1400,9 @@ border-radius: 10px;
   .nav__links{
     margin-left: 0%;
     min-height: 100vh;
-    width: 80%;
+    width: 100%;
     top: 8%;
-    background-color: whitesmoke;
+    background-color: white;
    
     font-weight: 700;
     border-top-left-radius: 20px;
@@ -1424,20 +1425,20 @@ border-radius: 10px;
    .remove{
     display: block;
     color: black;
-    background-color: whitesmoke;
-    margin-left: 113%;
+    background-color: white;
+    margin-left: 90%;
     font-size: 35px;
     position: absolute;
-    margin-top: -20%;
+    margin-top: -15%;
     font-weight: lighter;
     cursor: pointer;
    }
     
     nav ul li{
         display: block;
-        padding: 10px;
+      font-size: 25px;
         padding: 20px;
-        background-color: whitesmoke;
+        background-color: white;
         margin-left: 0;
         color: black;
         
@@ -1683,10 +1684,7 @@ margin-left: 5%;
   background: transparent;
 }
 
-.links h1{
-  font-size: 16px;
- 
-}
+
 #subject{
   background: white;
   display: block;
