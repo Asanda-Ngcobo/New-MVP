@@ -945,7 +945,7 @@ footer ul li a:hover {
     background-color: white;
 
       margin-top: 1%;
-      height: 60vh;
+      /* height: 60vh; */
     
   }
   .header__title h4 {
@@ -992,9 +992,9 @@ footer ul li a:hover {
   display: block;
   width: 80%;
 }
-.visuals{
+/* .visuals{
   display: none;
-}
+} */
   
   .collection p {
     font-size: 12px;
@@ -1589,7 +1589,7 @@ border-radius: 10px;
     background-color: white;
 
       margin-top: 1%;
-      height: 40vh;
+      
     
   }
   .header__title h4 {
@@ -1636,9 +1636,9 @@ border-radius: 10px;
   display: block;
   width: 80%;
 }
-.visuals{
+/* .visuals{
   display: none;
-}
+} */
   
   .collection p {
     font-size: 12px;
