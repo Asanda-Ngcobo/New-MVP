@@ -195,6 +195,7 @@ header {
   color: black;
   background: transparent;
   font-size: 50px;
+  font-family: 'Poetsen One';
 }
 
 .hero p{
@@ -346,6 +347,7 @@ justify-content: space-between;
   font-size: 50px;
   color: black;
   background: transparent;
+  font-family: 'Poetsen One';
 }
 .image{
   width: 50%;
@@ -374,6 +376,10 @@ justify-content: space-between;
   text-align: center;
   padding: 15px;
 }
+
+.images{
+  display: none;
+}
 /* subject */
 #subject{
   background: white;
@@ -384,7 +390,8 @@ justify-content: space-between;
 }
 
 .links h1{
-  font-size: 15px;
+  font-size: 20px;
+  font-family: 'Poetsen One';
  
 }
 
@@ -392,6 +399,7 @@ justify-content: space-between;
 .grades h2{
   font-size: 14px;
   text-align: center;
+  font-family: 'Poetsen One';
 }
 
 .grades ul li{
@@ -457,16 +465,7 @@ border-radius: 10px;
   background: transparent;
   margin-left: 95%;
 }
-.container {
-  position: relative;
 
-  width: 90%;
-  margin-left: 5%;
-  height: auto;
-  top: 0%;
-  background: transparent;
- 
-}
 .vid_discription {
   margin: 15px 0px 15px 0px;
   font-size: 14px;
@@ -486,7 +485,7 @@ border-radius: 10px;
 #section_2 h2{
   text-align: center;
   padding: 5%;
-  color: rgba(104, 177, 173, 0.342);
+  font-family: 'Poetsen One';
   
   background: transparent;
 }
@@ -511,7 +510,7 @@ border-radius: 10px;
 
 .div__2 button {
   padding: 8px;
-  background: rgba(104, 177, 173, 0.342);;
+  background: black;
   color: white;
   font-weight: bold;
   border: none;
@@ -554,11 +553,23 @@ h3{
   padding: 50px;
    
  }
+
+ .container {
+  position: relative;
+
+  width: 90%;
+  margin-left: 5%;
+  height: auto;
+  top: 0%;
+  background: transparent;
+ 
+}
 .container h2{
   color: white;
   font-size: 40px;
   position: relative;
   background-color: black;
+  font-family: 'Poetsen One';
  
 }
 
@@ -576,7 +587,7 @@ h3{
 .container a{
   text-decoration: none;
   background: transparent;
-  color: aquamarine;
+  color: rgb(127, 182, 255);
   padding: 15px;
 }
 
@@ -1021,7 +1032,7 @@ footer ul li a:hover {
 
 
 .content{
-  display: flex;
+  display: block;
 
   margin-left: 1.5%;
   width: 100%;
@@ -1035,7 +1046,7 @@ p{
 .content p{
 
   margin-top: 5%;
-  font-size: 8px;
+  font-size: 14px;
   width: 80%;
   background: transparent;
   
@@ -1061,16 +1072,37 @@ margin-left: 5%;
 
 .content h2{
   margin-left: 10%;
-  font-size: 10px;
+  font-size: 20px;
+  font-weight: bolder;
   background: transparent;
+  font-family: 'Poetsen One';
 
 }
 
 .content .image{
   background: transparent;
 }
+.tutorials{
+  display: none;
+}
+.images{
+  display: block;
+  background: lightskyblue;
+  width: 80%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  
+}
 
+.quiz{
+  display: none;
+}
 
+.images img{
+  width: 80%;
+  margin-left: 10%;
+  position:relative;
+}
 #subject{
   background: white;
   display: block;
@@ -1644,7 +1676,7 @@ border-radius: 10px;
 
 
 .content{
-  display: flex;
+  display: block;
 
   margin-left: 1.5%;
   width: 100%;
@@ -1658,7 +1690,7 @@ p{
 .content p{
 
   margin-top: 5%;
-  font-size: 8px;
+  font-size: 14px;
   width: 80%;
   background: transparent;
   
@@ -1684,16 +1716,37 @@ margin-left: 5%;
 
 .content h2{
   margin-left: 10%;
-  font-size: 10px;
+  font-size: 20px;
+  font-weight: bolder;
   background: transparent;
+  font-family: 'Poetsen One';
 
 }
 
 .content .image{
   background: transparent;
 }
+.tutorials{
+  display: none;
+}
+.images{
+  display: block;
+  background: lightskyblue;
+  width: 80%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  
+}
 
+.quiz{
+  display: none;
+}
 
+.images img{
+  width: 80%;
+  margin-left: 10%;
+  position:relative;
+}
 #subject{
   background: white;
   display: block;
